@@ -1,0 +1,17 @@
+{
+    "name": "Owlet.SDK.Ironsource",
+    "rootNamespace": "Owlet.SDK.IronSource",
+    "references": [
+        "GUID:707d691eb1e451a4e95c57666243043e",
+        "GUID:760a4c7888534400e882b82c5b3fba06"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

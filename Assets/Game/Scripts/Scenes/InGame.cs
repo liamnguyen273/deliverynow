@@ -1,23 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Doozy.Engine;
-using Doozy.Engine.UI;
 using UnityEngine.UI;
 
 public class InGame : Singleton<InGame>
 {
     [SerializeField] Slider progress;
-    [SerializeField] Text percent, timeText, coin;
+    [SerializeField] TextMeshProUGUI percent, timeText, coin;
     [SerializeField] AudioClip bgMusic;
-    [SerializeField] UIButton btHome;
+    [SerializeField] Button btHome;
     bool isStarted = false;
     public int Coins = 0;
     public int DeadCount = 0;
     void Start()
     {
-        btHome.OnClick.OnTrigger.Event.AddListener(OnHomeClick);
+        btHome.onClick.AddListener(OnHomeClick);
     }
 
     void OnEnable()

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Dreamteck.Splines;
 using DG.Tweening;
-using Doozy.Engine.UI;
 
 public class Helicopter : MonoBehaviour
 {
@@ -173,6 +172,7 @@ public class Helicopter : MonoBehaviour
 
     void ShowTutorial()
     {
-        UIPopup.GetPopup(Define.Popup.TUTORIAL_FLY).Show();
+        //TODO: Show tutorial popup
+        //UIPopup.GetPopup(Define.Popup.TUTORIAL_FLY).Show();
     }
 }

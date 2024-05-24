@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Doozy.Engine;
 using UnityEngine.SceneManagement;
 
 public class Init : MonoBehaviour
 {
-    // Start is called before the first frame update
-    TextAsset doozyFile;
     void Start()
     {
         StartCoroutine(Load());
@@ -26,6 +23,7 @@ public class Init : MonoBehaviour
         {
             yield return null;
         }
-        GameEventMessage.SendEvent("InGame");
+        //TODO: send sth to invoke the start game event
+        //GameEventMessage.SendEvent("InGame");
     }
 }

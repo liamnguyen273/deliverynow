@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Dreamteck.Splines;
 using DG.Tweening;
-using Doozy.Engine.UI;
 
 public class Car : MonoBehaviour
 {
@@ -318,6 +317,7 @@ public class Car : MonoBehaviour
 
     void ShowTutorial()
     {
-        UIPopup.GetPopup(Define.Popup.TUTORIAL_CAR).Show();
+        //TODO: Show popup here
+        //UIPopup.GetPopup(Define.Popup.TUTORIAL_CAR).Show();
     }
 }

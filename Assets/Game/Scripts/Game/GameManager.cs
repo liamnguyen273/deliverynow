@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Doozy.Engine;
-using Doozy.Engine.UI;
 using Cinemachine;
 using Dreamteck.Splines;
 
@@ -126,9 +124,10 @@ public class GameManager : Singleton<GameManager>
 
     public void ShowQuest()
     {
-        UIPopup popup = UIPopup.GetPopup(Define.Popup.NEW_MISSION);
-        popup.Show();
-        popup.GetComponent<PopupMissionDetail>().OnAccept += StartPickUp;
+        //TODO: Show quest popup
+        //UIPopup popup = UIPopup.GetPopup(Define.Popup.NEW_MISSION);
+        //popup.Show();
+        //popup.GetComponent<PopupMissionDetail>().OnAccept += StartPickUp;
     }
 
     public void ShowMenu()
@@ -138,12 +137,14 @@ public class GameManager : Singleton<GameManager>
     public void MissionFail()
     {
         ShouldCheckQuestTime = false;
-        UIPopup.GetPopup(Define.Popup.MISSION_FAIL).Show();
+        //TODO: Show popup fail
+        //UIPopup.GetPopup(Define.Popup.MISSION_FAIL).Show();
     }
 
     void MissionComplete()
     {
-        UIPopup.GetPopup(Define.Popup.MISSION_COMPLETE).Show();
+        //TODO: Show popup complete
+        //UIPopup.GetPopup(Define.Popup.MISSION_COMPLETE).Show();
     }
     public void StartPickUp()
     {

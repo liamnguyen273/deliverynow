@@ -5,7 +5,6 @@ using UnityEngine;
 using Firebase;
 using Firebase.Analytics;
 using Firebase.Extensions;
-using com.adjust.sdk;
 
 public class FirebaseMgr : Singleton<FirebaseMgr>
 {

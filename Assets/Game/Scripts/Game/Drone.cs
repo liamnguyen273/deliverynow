@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Dreamteck.Splines;
 using DG.Tweening;
-using Doozy.Engine.UI;
 public class Drone : MonoBehaviour
 {
 
@@ -171,6 +170,7 @@ public class Drone : MonoBehaviour
 
     void ShowTutorial()
     {
-        UIPopup.GetPopup(Define.Popup.TUTORIAL_FLY).Show();
+        //TODO: show popup
+        //UIPopup.GetPopup(Define.Popup.TUTORIAL_FLY).Show();
     }
 }

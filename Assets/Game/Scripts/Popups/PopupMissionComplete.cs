@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Doozy.Engine.UI;
 using UnityEngine.UI;
 using DG.Tweening;
 using System;
 public class PopupMissionComplete : MonoBehaviour
 {
-    [SerializeField] UIButton btNext, btWatchAds;
+    [SerializeField] Button btNext, btWatchAds;
     [SerializeField] AudioClip audioClipReward;
     [SerializeField] Text coins;
     [SerializeField] Transform questContainer;
@@ -23,17 +22,17 @@ public class PopupMissionComplete : MonoBehaviour
         coins.text = coinValue.ToString();
         Utils.DestroyAllChild(questContainer);
 
-        btNext.OnClick.OnTrigger.Event.AddListener(OnNext);
-        btWatchAds.OnClick.OnTrigger.Event.AddListener(onWatchAds);
+        btNext.onClick.AddListener(OnNext);
+        btWatchAds.onClick.AddListener(onWatchAds);
 
-        if (IronSourceAds.Instance.RewardVideoAvailable)
+        /*if (IronSourceAds.Instance.RewardVideoAvailable)
         {
-            btWatchAds.EnableButton();
-        }
-        else
+            btWatchAds.enabled = true;
+        }*/
+        /*else
         {
-            btWatchAds.DisableButton();
-        }
+            btWatchAds.enabled = false;
+        }*/
 
         DG.Tweening.DOVirtual.DelayedCall(2, () =>
         {
@@ -42,13 +41,13 @@ public class PopupMissionComplete : MonoBehaviour
         InGame.Instance.PlayBackGroundMusic(true);
         
         CompleteCount++;
-        if (CompleteCount % 2 == 0)
+        /*if (CompleteCount % 2 == 0)
         {
             IronSourceAds.Instance.ShowInterstitial("mission_complate", (result) =>
             {
 
             });
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -59,14 +58,15 @@ public class PopupMissionComplete : MonoBehaviour
 
     void OnNext()
     {
+        //TODO: hide this shit
         GameManager.Instance.ShowMenu();
-        GetComponent<UIPopup>().Hide();
+        //GetComponent<UIPopup>().Hide();
     }
 
     void onWatchAds()
     {
-        btWatchAds.DisableButton();
-        IronSourceAds.Instance.ShowRewardVideo(Define.AdsRewardType.COIN, "mission_completed", (result) =>
+        btWatchAds.enabled = false;
+        /*IronSourceAds.Instance.ShowRewardVideo(Define.AdsRewardType.COIN, "mission_completed", (result) =>
         {
             if (result == Define.AdsResult.Watched)
             {
@@ -75,7 +75,7 @@ public class PopupMissionComplete : MonoBehaviour
                     DG.Tweening.DOVirtual.DelayedCall(1, OnNext);
                 });
             }
-        });
+        });*/
     }
 
     void AddBonus(int value, Action OnCompleted)
@@ -108,6 +108,8 @@ public class PopupMissionComplete : MonoBehaviour
         questItem.localPosition = Vector3.zero;
         questItem.Find("Tag").gameObject.SetActive(true);
         questItem.DOPunchScale(new Vector3(0.1f, 0.1f, 0.1f), 0.5f);
-        questItem.GetComponent<UIButton>().OnClick.OnTrigger.Event.AddListener(OnNext);
+
+        //TODO: Set on next to quest item?
+        //questItem.GetComponent<UIButton>().OnClick.OnTrigger.Event.AddListener(OnNext);
     }
 }

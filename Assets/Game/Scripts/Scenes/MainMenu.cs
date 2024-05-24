@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Doozy.Engine;
-using Doozy.Engine.UI;
 
 public class MainMenu : MonoBehaviour
 {
@@ -18,7 +16,8 @@ public class MainMenu : MonoBehaviour
     {
         if(isStarted)
         {
-            UIPopup.GetPopup(Define.Popup.MENU).Show();
+            //TODO: Show menu popup
+            //UIPopup.GetPopup(Define.Popup.MENU).Show();
         }
         else
         {

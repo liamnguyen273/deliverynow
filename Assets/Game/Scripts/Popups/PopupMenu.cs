@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Doozy.Engine.UI;
 
 public class PopupMenu: MonoBehaviour
 {
@@ -23,7 +22,7 @@ public class PopupMenu: MonoBehaviour
                 //btn.Find("Title").GetComponent<Text>().text = quest.questTitle;
                 item.name = index.ToString();
                 item.SetInfo(Profile.Instance.GetQuestInfo(index));
-                item.GetComponent<UIButton>().OnClick.OnTrigger.Event.AddListener(()=>{
+                item.GetComponent<Button>().onClick.AddListener(()=>{
                     OnQuestSelect(int.Parse(item.name));
                 });
                 item.NewTag(Profile.Instance.LastUnlockedIndex == index);
@@ -45,12 +44,12 @@ public class PopupMenu: MonoBehaviour
     {
         Debug.Log("ON QUEST SELECT:" + index);
         GameManager.Instance.StartQuest(index);
-        GetComponent<UIPopup>().Hide();
+        //GetComponent<UIPopup>().Hide();
     }
 
     void Hide()
     {
-        GetComponent<UIPopup>().Hide();
+        //GetComponent<UIPopup>().Hide();
         Instance = null;
     }
 
@@ -58,8 +57,9 @@ public class PopupMenu: MonoBehaviour
     {
         if(Instance == null)
         {
-            UIPopup popup = UIPopup.GetPopup(Define.Popup.MENU);
-            popup.Show();
+            //TODO: Show popup and hide them in the 2 functions above
+            //UIPopup popup = UIPopup.GetPopup(Define.Popup.MENU);
+            //popup.Show();
         }
     }
 }

@@ -3,16 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Doozy.Engine.UI;
 
 public class PopupMissionDetail : MonoBehaviour
 {
-    [SerializeField] UIButton btAccept;
+    [SerializeField] Button btAccept;
     [SerializeField] Text Detail;
     public Action OnAccept;
     void Start()
     {
-        btAccept.OnClick.OnTrigger.Event.AddListener(OnBtAccept);
+        btAccept.onClick.AddListener(OnBtAccept);
         Detail.text = QuestManager.Instance.CurrentQuest.questDetail;
     }
 
@@ -24,7 +23,8 @@ public class PopupMissionDetail : MonoBehaviour
 
     void OnBtAccept()
     {
-        GetComponent<UIPopup>().Hide();
+        //TODO: Close the Popup
+        //GetComponent<UIPopup>().Hide();
         OnAccept.Invoke();
     }
 }

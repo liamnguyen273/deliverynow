@@ -1,0 +1,22 @@
+{
+    "name": "Game",
+    "rootNamespace": "DeliveryNow",
+    "references": [
+        "Dreamteck.Splines",
+        "Cinemachine",
+        "Unity.LevelPlay",
+        "Unity.TextMeshPro",
+        "",
+        "Adjust",
+        "DOTween.Modules"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

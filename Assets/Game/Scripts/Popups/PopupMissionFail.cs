@@ -1,26 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Doozy.Engine.UI;
+using UnityEngine.UI;
 
 public class PopupMissionFail : MonoBehaviour
 {
-    [SerializeField] UIButton btRetry;
+    [SerializeField] Button btRetry;
     static int FailCount = 0;
     void Start()
     {
 
-        btRetry.OnClick.OnTrigger.Event.AddListener(OnRetry);
+        btRetry.onClick.AddListener(OnRetry);
         InGame.Instance.PlayBackGroundMusic(true);
 
         FailCount++;
-        if (FailCount % 2 == 0)
+        /*if (FailCount % 2 == 0)
         {
             IronSourceAds.Instance.ShowInterstitial("mission_fail", (result) =>
             {
 
             });
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -35,7 +35,8 @@ public class PopupMissionFail : MonoBehaviour
     void OnRetry()
     {
         GameManager.Instance.Retry();
-        GetComponent<UIPopup>().Hide();
+        //TODO: Hide this shit
+        //GetComponent<UIPopup>().Hide();
         InGame.Instance.PlayBackGroundMusic(false);
     }
 }

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Doozy.Engine.UI;
 using DG.Tweening;
 public class PopupTutorial : MonoBehaviour
 {
@@ -27,7 +26,8 @@ public class PopupTutorial : MonoBehaviour
 
     void OnGo()
     {
-        GetComponent<UIPopup>().Hide();
+        //TODO: hide this shit;
+        //GetComponent<UIPopup>().Hide();
         InGame.Instance.PlayBackGroundMusic(false);
         Instance = null;
     }
