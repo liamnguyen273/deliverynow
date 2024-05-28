@@ -1,0 +1,2 @@
+Minors:
+- Animation rotate cho cánh quạt

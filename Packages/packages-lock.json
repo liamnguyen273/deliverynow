@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "fbe0bf85155f42f8832205f7b3ac3df571ada33e"
+    },
+    "com.littlebigfun.addressable-importer": {
+      "version": "https://github.com/favoyang/unity-addressable-importer.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "1.1.5"
+      },
+      "hash": "f15c79e9d1b35309010afb88e7f376803af54390"
+    },
     "com.unity.addressables": {
       "version": "1.21.21",
       "depth": 0,
@@ -20,6 +36,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.9.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },
@@ -69,6 +94,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "14.0.8",
       "depth": 1,
@@ -105,6 +137,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "14.0.8",
       "depth": 1,
@@ -113,6 +152,17 @@
         "com.unity.render-pipelines.core": "14.0.8",
         "com.unity.searcher": "4.9.2"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.1.33",
