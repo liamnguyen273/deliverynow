@@ -14,4 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rulesEnabled: 1
   allowGroupCreation: 0
-  rules: []
+  rules:
+  - path: Assets/_Addressables/Prefabs/(?<group>.*?)/(?<type>.*?)\.\w+
+    matchType: 1
+    groupName: Prefabs
+    groupTemplate: {fileID: 11400000, guid: 9b92714c34ae7a744b15a0115521b023, type: 2}
+    groupTemplateApplicationMode: 0
+    labelRefs: []
+    dynamicLabels:
+    - Prefabs
+    LabelMode: 1
+    simplified: 0
+    addressReplacement: ${type}

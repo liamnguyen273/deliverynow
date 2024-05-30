@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23535846255778492}
   - component: {fileID: 64136473670612628}
   - component: {fileID: 136496429660687888}
+  - component: {fileID: -8250740169881229607}
   m_Layer: 0
   m_Name: Roundabout_2C
   m_TagString: Untagged
@@ -130,3 +131,15 @@ CapsuleCollider:
   m_Height: 13.14
   m_Direction: 1
   m_Center: {x: 0, y: 4.5, z: 0}
+--- !u!114 &-8250740169881229607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533069704316954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

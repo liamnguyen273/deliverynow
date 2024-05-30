@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33114490190348588}
   - component: {fileID: 23066070348409350}
   - component: {fileID: 64140915070533624}
+  - component: {fileID: 7259719528935943271}
   m_Layer: 0
   m_Name: Road_3V
   m_TagString: Untagged
@@ -106,3 +107,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c2b5f7979790c4af2a832dc2ad949e8c, type: 3}
+--- !u!114 &7259719528935943271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852827025088700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

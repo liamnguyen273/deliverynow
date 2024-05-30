@@ -5206,6 +5206,7 @@ GameObject:
   - component: {fileID: 23000014196213282}
   - component: {fileID: 1337377803957980987}
   - component: {fileID: 9095016497823670031}
+  - component: {fileID: -7153055713213625002}
   m_Layer: 0
   m_Name: Car_17B
   m_TagString: Untagged
@@ -5332,3 +5333,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-7153055713213625002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013651584406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
