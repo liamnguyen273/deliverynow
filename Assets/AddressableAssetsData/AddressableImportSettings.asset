@@ -15,6 +15,17 @@ MonoBehaviour:
   rulesEnabled: 1
   allowGroupCreation: 0
   rules:
+  - path: Assets/_Addressables/Resources/(?<group>.*?)/(?<type>.*?)\.\w+
+    matchType: 1
+    groupName: Resources
+    groupTemplate: {fileID: 11400000, guid: 9b92714c34ae7a744b15a0115521b023, type: 2}
+    groupTemplateApplicationMode: 0
+    labelRefs: []
+    dynamicLabels:
+    - Resources
+    LabelMode: 1
+    simplified: 0
+    addressReplacement: R_${type}
   - path: Assets/_Addressables/Prefabs/(?<group>.*?)/(?<type>.*?)\.\w+
     matchType: 1
     groupName: Prefabs
@@ -23,6 +34,28 @@ MonoBehaviour:
     labelRefs: []
     dynamicLabels:
     - Prefabs
+    LabelMode: 1
+    simplified: 0
+    addressReplacement: ${type}
+  - path: Assets/_Addressables/Popups/(?<type>.*?)\.\w+
+    matchType: 1
+    groupName: Popups
+    groupTemplate: {fileID: 11400000, guid: 9b92714c34ae7a744b15a0115521b023, type: 2}
+    groupTemplateApplicationMode: 0
+    labelRefs: []
+    dynamicLabels:
+    - Popups
+    LabelMode: 1
+    simplified: 0
+    addressReplacement: ${type}
+  - path: Assets/_Addressables/Levels/(?<type>.*?)\.\w+
+    matchType: 1
+    groupName: Levels
+    groupTemplate: {fileID: 11400000, guid: 9b92714c34ae7a744b15a0115521b023, type: 2}
+    groupTemplateApplicationMode: 0
+    labelRefs: []
+    dynamicLabels:
+    - Popups
     LabelMode: 1
     simplified: 0
     addressReplacement: ${type}

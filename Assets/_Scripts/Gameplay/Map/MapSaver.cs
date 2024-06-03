@@ -10,6 +10,7 @@ namespace DeliveryNow
     public class MapSaver : ObjectSerializer
     {
         [SerializeField] SerializablePlayer player;
+        [SerializeField] SerializableSpline path;
 
         protected override void Serialize()
         {
@@ -30,6 +31,7 @@ namespace DeliveryNow
             }
 
             mapData.player = player.Save();
+            mapData.path = path.Save();
 
             string finalData = JsonConvert.SerializeObject(mapData, new JsonSerializerSettings
             {

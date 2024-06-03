@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  m_GroupName: Levels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f69322f2da2904941802bf05155b2c42
+  m_SerializeEntries:
+  - m_GUID: cc874b7845c99d84b8ec439e9b76ca5c
+    m_Address: Level_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e776982d2bf4ed45b70fc4d2626665c
+    m_Address: Level_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1e6eae913d452a4fbed5f5ba303cda6
+    m_Address: Level_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 757fdfc53ca41af4e9ed55e56571ace4
+    m_Address: Level_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19e8b3f8a0caa0744b922e6e313ed879
+    m_Address: Level_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac755d9600bd6914fb5bf856611d3be2
+    m_Address: Level_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03790437dd6384443852ed982a9a6a76
+    m_Address: Level_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad901c47d87324646aece556b800e9ab
+    m_Address: Level_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dcbe739dfe1e464d9592cfb8a082855
+    m_Address: Level_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4459c031daac3b1499a1d965683caca7
+    m_Address: Level_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7a5a4e294f7cc0b418e0fed876aef0dc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba8871437fdb7fd4a9fb406bc2ee05d3, type: 2}
+    - {fileID: 11400000, guid: de308317215a9cc45a88c49c145d1aab, type: 2}

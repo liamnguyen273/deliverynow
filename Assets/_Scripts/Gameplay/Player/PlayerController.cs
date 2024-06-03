@@ -1,6 +1,10 @@
 using DG.Tweening;
+using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Splines;
 
@@ -11,8 +15,11 @@ namespace DeliveryNow.Gameplay
     /// </summary>
     public class PlayerController : MonoBehaviour
     {
+        public PlayerStateMachine stateMachine;
         [SerializeField] SplineAnimate splineAnimate;
-        [SerializeField] Transform body;
+        public Transform body;
+
+        public static Action<PlayerController> onPlayerDataLoaded;
 
         const float SPEED_DEFAULT = 15f;
         const float BODY_OFFSET = 2.1f;
@@ -33,7 +40,39 @@ namespace DeliveryNow.Gameplay
             isRightLane = true;
             isOccupied = false;
 
-            body.transform.position = new Vector3(BODY_OFFSET, 0, 0);
+            splineAnimate.Restart(false);
+            splineAnimate.MaxSpeed = 0;
+            body.transform.localPosition = new Vector3(BODY_OFFSET, 0, 0);
+
+
+            onPlayerDataLoaded?.Invoke(this);
+        }
+
+        private void OnEnable()
+        {
+            splineAnimate.Updated += CheckFinishLineReached;
+        }
+
+        private void OnDisable()
+        {
+            splineAnimate.Updated -= CheckFinishLineReached;
+        }
+
+        private void CheckFinishLineReached(Vector3 vector, Quaternion quaternion)
+        {
+            float3 lastKnot = splineAnimate.Container.Splines[0].Knots.Last().Position;
+            Vector3 destination = new Vector3(lastKnot.x, lastKnot.y, lastKnot.z) + splineAnimate.Container.transform.position;
+            if (Vector3.Distance(vector, destination) < 0.01f)
+            {
+                CompleteLevel();
+            }
+        }
+
+        void CompleteLevel()
+        {
+            Debug.Log("Level Complete");
+            stateMachine.SetState(new PlayerIdle(this));
+            GameManager.instance.CompleteLevel();
         }
 
         public void ChangeLane()
@@ -53,13 +92,24 @@ namespace DeliveryNow.Gameplay
             isRightLane = !isRightLane;
         }
 
+        [Button]
+        public void StartCar()
+        {
+            splineAnimate.Play();
+        }
+
+        public void StopCar()
+        {
+            splineAnimate.Pause();
+        }
+
         public void ResetSpeed()
         {
             tweenerSpeed.Kill();
             UpdatePathSpeed(SPEED_DEFAULT);
         }
 
-        public void StopMoving()
+        public void Brake()
         {
             tweenerSpeed.Kill();
             tweenerSpeed = DOVirtual.Float(SPEED_DEFAULT, 0.001f, BRAKE_TIME, (float value) =>
@@ -68,7 +118,7 @@ namespace DeliveryNow.Gameplay
             });
         }
 
-        public void StartMoving()
+        public void StartEngine()
         {
             tweenerSpeed.Kill();
             tweenerSpeed = DOVirtual.Float(0.001f, SPEED_DEFAULT, BRAKE_TIME, (float value) =>

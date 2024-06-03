@@ -36,7 +36,7 @@ namespace Owlet
 
         protected void SaveJsonToFile(string jsonData)
         {
-            string directoryPath = Path.Combine(Application.dataPath, "Levels");
+            string directoryPath = Path.Combine(Application.dataPath, "_Addressables/Levels");
             if (!Directory.Exists(directoryPath))
             {
                 Directory.CreateDirectory(directoryPath);

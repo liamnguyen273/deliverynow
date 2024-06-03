@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Newtonsoft.Json;
 using System;
+using System.Linq;
 namespace Owlet.Systems.SaveLoad
 {
     public class SaveManager : Singleton<SaveManager>
@@ -24,7 +25,7 @@ namespace Owlet.Systems.SaveLoad
 
         private void Update()
         {
-            if(Input.GetKeyUp(KeyCode.Backslash))
+            if (Input.GetKeyUp(KeyCode.Backslash))
             {
                 Save();
             }
@@ -63,6 +64,7 @@ namespace Owlet.Systems.SaveLoad
                 CreateNewSaveFile();
                 return false;
             }
+            List<ISaveable> loadedObjects = new();
             //Debug.Log(loadedData);
             List<string> jsonList = JsonConvert.DeserializeObject<List<string>>(loadedData);
             foreach (var jsonString in jsonList)
@@ -74,6 +76,7 @@ namespace Owlet.Systems.SaveLoad
 
                 // Find the corresponding ISaveable using the identifier
                 ISaveable saveable = FindSaveObject(identifier);
+                loadedObjects.Add(saveable);
 
                 // Load the data into the ISaveable object
                 string jsonData = jsonString.Substring(metadata.Length);
@@ -88,6 +91,15 @@ namespace Owlet.Systems.SaveLoad
                     Helper.Log($"Load successful {saveable.ID()}");
                 }
             }
+
+            List<ISaveable> unloadedObjects = saveableObjects.Except(loadedObjects).ToList();
+
+            foreach (var unloadedObject in unloadedObjects)
+            {
+                Helper.Log($"Create new save file for {unloadedObject.ID()}");
+                unloadedObject.CreateNewSaveFile();
+            }
+
             onDataLoaded?.Invoke();
             return true;
         }

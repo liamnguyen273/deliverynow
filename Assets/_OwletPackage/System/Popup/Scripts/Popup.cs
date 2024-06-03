@@ -53,5 +53,10 @@ namespace Owlet.UI.Popups
             onClosed = null;
             onOpened = null;
         }
+
+        public void SelfClosing()
+        {
+            PopupManager.instance.CloseUI(ID);
+        }
     }
 }

@@ -11,10 +11,21 @@ namespace DeliveryNow.Gameplay
         protected State state;
         PlayerController playerController;
 
-        private void Start()
+        private void Awake()
         {
-            playerController = GetComponent<PlayerController>();
-            SetState(new PlayerMainHandler(playerController));
+            PlayerController.onPlayerDataLoaded += Inititalize;
+        }
+
+        private void OnDestroy()
+        {
+            PlayerController.onPlayerDataLoaded -= Inititalize;
+        }
+
+
+        void Inititalize(PlayerController playerController)
+        {
+            this.playerController = playerController;
+            SetState(new PlayerPrepare(playerController));
         }
 
         public void SetState(State newState)

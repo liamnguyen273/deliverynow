@@ -8,6 +8,7 @@ namespace DeliveryNow
     {
         public List<SerializeWrapper> baseObjectWrappers;
         public string player;
+        public string path;
 
         public MapData()
         {
