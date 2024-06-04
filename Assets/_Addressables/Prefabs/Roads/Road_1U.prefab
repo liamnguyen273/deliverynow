@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000013987786914}
   - component: {fileID: 64000011707944156}
   - component: {fileID: -2449209800555641560}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_1U
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 23000011117846792}
   - component: {fileID: 65000012680120730}
   - component: {fileID: 65000011509932582}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}

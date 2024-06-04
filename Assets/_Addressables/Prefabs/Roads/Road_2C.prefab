@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000011436128778}
   - component: {fileID: 65000010134181994}
   - component: {fileID: 65000012485381180}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 23000014148419184}
   - component: {fileID: 64000012250499790}
   - component: {fileID: 5847134847302483834}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_2C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 33000011442441468}
   - component: {fileID: 23000011962807578}
   - component: {fileID: 65000013128288652}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Manhole_1B (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 23000012895425552}
   - component: {fileID: 65000010161942208}
   - component: {fileID: 65000010017210378}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

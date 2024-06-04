@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 65000012509224032}
   - component: {fileID: 65000013164362322}
   - component: {fileID: 7092623523930217369}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Streetsign_1B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 33000013491388276}
   - component: {fileID: 23000010153630642}
   - component: {fileID: 65000012636818294}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Addon_Sign_1G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 33000011834593916}
   - component: {fileID: 23000010133132012}
   - component: {fileID: 65000012095497788}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Addon_Sign_1D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 33000012817989282}
   - component: {fileID: 23000013052412328}
   - component: {fileID: 65000013604536846}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Addon_Sign_1F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 33000010197774700}
   - component: {fileID: 23000010085976788}
   - component: {fileID: 65000012949364452}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Addon_Sign_1E
   m_TagString: Untagged
   m_Icon: {fileID: 0}

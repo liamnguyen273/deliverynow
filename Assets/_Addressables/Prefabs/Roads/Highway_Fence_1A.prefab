@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000010620834284}
   - component: {fileID: 65000013535876140}
   - component: {fileID: -52989037274634296}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Fence_1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}

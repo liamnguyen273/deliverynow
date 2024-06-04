@@ -17,6 +17,7 @@ namespace DeliveryNow.Gameplay
     {
         public PlayerStateMachine stateMachine;
         [SerializeField] SplineAnimate splineAnimate;
+        Rigidbody rb;
         public Transform body;
 
         public static Action<PlayerController> onPlayerDataLoaded;
@@ -37,20 +38,21 @@ namespace DeliveryNow.Gameplay
 
         public void Initialize()
         {
+            rb = GetComponent<Rigidbody>();
+            rb.velocity = Vector3.zero;
+            body.transform.localRotation = Quaternion.Euler(Vector3.zero);
+
             isRightLane = true;
             isOccupied = false;
 
             splineAnimate.Restart(false);
-            splineAnimate.MaxSpeed = 0;
+            UpdatePathSpeed(0.001f);
+            splineAnimate.Pause();
             body.transform.localPosition = new Vector3(BODY_OFFSET, 0, 0);
 
+            splineAnimate.Updated += CheckFinishLineReached;
 
             onPlayerDataLoaded?.Invoke(this);
-        }
-
-        private void OnEnable()
-        {
-            splineAnimate.Updated += CheckFinishLineReached;
         }
 
         private void OnDisable()
@@ -71,6 +73,7 @@ namespace DeliveryNow.Gameplay
         void CompleteLevel()
         {
             Debug.Log("Level Complete");
+            splineAnimate.Updated -= CheckFinishLineReached;
             stateMachine.SetState(new PlayerIdle(this));
             GameManager.instance.CompleteLevel();
         }
@@ -95,11 +98,13 @@ namespace DeliveryNow.Gameplay
         [Button]
         public void StartCar()
         {
+            UpdatePathSpeed(SPEED_DEFAULT);
             splineAnimate.Play();
         }
 
         public void StopCar()
         {
+            UpdatePathSpeed(0.001f);
             splineAnimate.Pause();
         }
 

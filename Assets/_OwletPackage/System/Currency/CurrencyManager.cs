@@ -22,6 +22,8 @@ namespace Owlet.Systems.Currency
         public static Action<CurrencyType ,int, string> onResourceGained;
         public static Action<CurrencyType, int, string> onResourceUsed;
 
+        public static Action onInitialized;
+
         protected override void Init()
         {
             base.Init();

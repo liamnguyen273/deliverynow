@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33000012610379292}
   - component: {fileID: 23000011578762236}
   - component: {fileID: 65000011678968638}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Billboard_Base_2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 23000014116925912}
   - component: {fileID: 64000013184491220}
   - component: {fileID: -6458177013633051953}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Parking_1B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 23000011281453750}
   - component: {fileID: 65000011233236926}
   - component: {fileID: 65000014258196350}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2G (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 23000012362339164}
   - component: {fileID: 65000012323443542}
   - component: {fileID: 65000010967709410}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 33000014015310036}
   - component: {fileID: 23000011235212868}
   - component: {fileID: 64000013314501206}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Rotating_Billboard_2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 23000013807790128}
   - component: {fileID: 65000012867122042}
   - component: {fileID: 65000013794888762}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000013774243666}
   - component: {fileID: 95000013347406812}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Billboard_2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ GameObject:
   - component: {fileID: 4000013956884352}
   - component: {fileID: 33000010631763660}
   - component: {fileID: 23000010394585704}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Billboard_2B_Image.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 4000010634977252}
   - component: {fileID: 33000011868310426}
   - component: {fileID: 23000012948399748}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Billboard_2B_Image.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 4000011285693602}
   - component: {fileID: 33000010652639502}
   - component: {fileID: 23000013742591698}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Billboard_2B_Image.M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ GameObject:
   - component: {fileID: 65000013717119886}
   - component: {fileID: 65000010713024014}
   - component: {fileID: 65000012833124420}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 23000010499143364}
   - component: {fileID: 65000012212507044}
   - component: {fileID: 65000010102656260}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2G
   m_TagString: Untagged
   m_Icon: {fileID: 0}

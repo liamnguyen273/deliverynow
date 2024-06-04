@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 65000014038802840}
   - component: {fileID: 65000012449196998}
   - component: {fileID: 9176358621905740143}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Streetlight_1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}

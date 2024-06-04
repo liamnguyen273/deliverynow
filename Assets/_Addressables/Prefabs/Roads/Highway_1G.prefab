@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23377424937971476}
   - component: {fileID: 54326724300594690}
   - component: {fileID: 65332060034375844}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 23594917021390808}
   - component: {fileID: 54967065316351338}
   - component: {fileID: 65281613251088516}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 23482350926148738}
   - component: {fileID: 64460670877287728}
   - component: {fileID: -5321225396400882939}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_1G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 23117318894668178}
   - component: {fileID: 54752533551128276}
   - component: {fileID: 65734379512340088}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 23184630739785402}
   - component: {fileID: 54708373481763554}
   - component: {fileID: 65888760252346358}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 33979959734236128}
   - component: {fileID: 23340368498128244}
   - component: {fileID: 64671532355925250}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Barrier_1G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 23615590426782236}
   - component: {fileID: 54722855817247692}
   - component: {fileID: 65820767352173522}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +910,7 @@ GameObject:
   - component: {fileID: 23746697889198578}
   - component: {fileID: 54137891123463584}
   - component: {fileID: 65973965330053206}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

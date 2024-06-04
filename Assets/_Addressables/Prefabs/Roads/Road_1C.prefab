@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000011473668364}
   - component: {fileID: 64000010533404838}
   - component: {fileID: -4876116313114026472}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_1C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 4000013237821762}
   - component: {fileID: 33000012046066658}
   - component: {fileID: 23000012578693436}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Light_Green_3A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 23000011300954014}
   - component: {fileID: 65000010855074298}
   - component: {fileID: 65000010048312626}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 65000011108650476}
   - component: {fileID: 65000012958339084}
   - component: {fileID: 65000012912458966}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_3A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 4000011040644636}
   - component: {fileID: 33000010856278464}
   - component: {fileID: 23000011834021894}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Stopsign_3B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 4000011745311220}
   - component: {fileID: 33000011224200368}
   - component: {fileID: 23000010297591792}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Light_Green_3B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ GameObject:
   - component: {fileID: 4000012747739548}
   - component: {fileID: 33000010819760592}
   - component: {fileID: 23000013434585324}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Stopsign_3A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 65000010807933386}
   - component: {fileID: 65000010501449176}
   - component: {fileID: 65000013720923172}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_3B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 4000011943043598}
   - component: {fileID: 33000013140995268}
   - component: {fileID: 23000013873355706}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Light_Red_3A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ GameObject:
   - component: {fileID: 4000010049893504}
   - component: {fileID: 33000010262495266}
   - component: {fileID: 23000010909725768}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Light_Red_3B
   m_TagString: Untagged
   m_Icon: {fileID: 0}

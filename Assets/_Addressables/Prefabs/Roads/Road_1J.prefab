@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33000010705047028}
   - component: {fileID: 23000013365738520}
   - component: {fileID: 65000011030606950}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Parking_Meter_1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 33000010659401974}
   - component: {fileID: 23000012251045816}
   - component: {fileID: 65000012345330338}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Parking_Meter_1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 23000012964209048}
   - component: {fileID: 65000014166989640}
   - component: {fileID: 65000013780793026}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 33000013167406598}
   - component: {fileID: 23000011610633662}
   - component: {fileID: 65000014128325430}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Parking_Meter_1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 33000011723426346}
   - component: {fileID: 23000011794648262}
   - component: {fileID: 65000013807966646}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Parking_Meter_1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 23000010161638884}
   - component: {fileID: 64000011171901482}
   - component: {fileID: 2533691088080254621}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_1J
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 23000010291808230}
   - component: {fileID: 65000011616105574}
   - component: {fileID: 65000011033188620}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2H
   m_TagString: Untagged
   m_Icon: {fileID: 0}

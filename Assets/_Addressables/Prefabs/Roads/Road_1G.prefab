@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 65000012122060500}
   - component: {fileID: 65000013622322026}
   - component: {fileID: 65000012921525348}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 23000010568427882}
   - component: {fileID: 65000012731489990}
   - component: {fileID: 65000010451362020}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 23000010169803176}
   - component: {fileID: 64000010244291272}
   - component: {fileID: -22879329158087974}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_1G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 65000010146931546}
   - component: {fileID: 65000013578005610}
   - component: {fileID: 65000013442454646}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2B (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 65000012240923184}
   - component: {fileID: 65000011952881104}
   - component: {fileID: 65000012204634374}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2B (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -714,7 +714,7 @@ GameObject:
   - component: {fileID: 23000013823282248}
   - component: {fileID: 65000012281582052}
   - component: {fileID: 65000010559992396}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 23000013522281720}
   - component: {fileID: 65000011784267312}
   - component: {fileID: 65000014155357878}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2C (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   - component: {fileID: 23000010169505714}
   - component: {fileID: 65000010013592172}
   - component: {fileID: 65000012677111424}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   - component: {fileID: 65000012517076826}
   - component: {fileID: 65000010005957200}
   - component: {fileID: 65000010029874494}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2B (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

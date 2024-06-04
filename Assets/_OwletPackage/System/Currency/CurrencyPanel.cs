@@ -21,9 +21,14 @@ namespace Owlet.UI
         {
             CurrencyManager.onResourceGained += UpdateUI;
             CurrencyManager.onResourceUsed += UpdateUI;
+            CurrencyManager.onInitialized += SetInitialText;
 
-            txtAmount.text = CurrencyManager.instance.GetResource(currencyType.currencyName).ToString();
             icon.sprite = currencyType.icon;
+        }
+
+        void SetInitialText()
+        {
+            txtAmount.text = CurrencyManager.instance.GetResource(currencyType.currencyName).ToString();
         }
 
 
@@ -31,6 +36,7 @@ namespace Owlet.UI
         {
             CurrencyManager.onResourceGained -= UpdateUI;
             CurrencyManager.onResourceUsed -= UpdateUI;
+            CurrencyManager.onInitialized -= SetInitialText;
         }
 
         private void UpdateUI(CurrencyType type, int amount, string source)

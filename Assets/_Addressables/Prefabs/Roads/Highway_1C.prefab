@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000010269132886}
   - component: {fileID: 64000013273966786}
   - component: {fileID: -223023818014947649}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_1C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 33000013499993044}
   - component: {fileID: 23000012694185602}
   - component: {fileID: 64000011499808568}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Barrier_1C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 23000012406285004}
   - component: {fileID: 54000012548708122}
   - component: {fileID: 65000010844164540}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 23000012836854802}
   - component: {fileID: 54000013720753014}
   - component: {fileID: 65000011041879878}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 23000013968766380}
   - component: {fileID: 54000011391317454}
   - component: {fileID: 65000010977447246}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Impact_Barrel_1A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

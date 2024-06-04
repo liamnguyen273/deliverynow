@@ -50,5 +50,12 @@ namespace DeliveryNow
             public static readonly string TapToStart = nameof(TapToStart);
             public static readonly string LevelComplete = nameof(LevelComplete);
         }
+
+        public static class Layers
+        {
+            public static readonly string Player = nameof(Player);
+            public static readonly string Obstacle = nameof(Obstacle);
+            public static readonly string PlayerHitBox = nameof(PlayerHitBox);
+        }
     }
 }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000011705792120}
   - component: {fileID: 65000014222376644}
   - component: {fileID: 65000011207112586}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 23000011396401288}
   - component: {fileID: 64000011937180714}
   - component: {fileID: -3392476474071279122}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_1S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 23000013877065448}
   - component: {fileID: 65000012926259378}
   - component: {fileID: 65000011354830390}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 23000012607785946}
   - component: {fileID: 65000014154394334}
   - component: {fileID: 65000013435981040}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 23000011020064578}
   - component: {fileID: 65000012474216298}
   - component: {fileID: 65000011814542224}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 23000010073741422}
   - component: {fileID: 65000013596310434}
   - component: {fileID: 65000011973823666}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 23000014239628888}
   - component: {fileID: 65000013753203256}
   - component: {fileID: 65000010552434564}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 23000010932561480}
   - component: {fileID: 65000012514175368}
   - component: {fileID: 65000012726765212}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetsign_2H
   m_TagString: Untagged
   m_Icon: {fileID: 0}

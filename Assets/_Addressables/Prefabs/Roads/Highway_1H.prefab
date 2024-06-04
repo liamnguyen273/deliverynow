@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23734730877334808}
   - component: {fileID: 64697579154803740}
   - component: {fileID: 825490691520382184}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_1H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 33601559248581722}
   - component: {fileID: 23558214827740200}
   - component: {fileID: 64271900250567078}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Barrier_1H
   m_TagString: Untagged
   m_Icon: {fileID: 0}

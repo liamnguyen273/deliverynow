@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000012660162736}
   - component: {fileID: 33000011642461264}
   - component: {fileID: 23000012170580888}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Addon_Sign_1H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 65000013410332052}
   - component: {fileID: 65000013618862272}
   - component: {fileID: 1644917444190273063}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Highway_Streetsign_1C
   m_TagString: Untagged
   m_Icon: {fileID: 0}

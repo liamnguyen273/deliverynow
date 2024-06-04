@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4515987099962632}
   - component: {fileID: 33270485939686438}
   - component: {fileID: 23065552393960132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scooter_1C_Wheel.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4410983203150668}
   - component: {fileID: 33189286996827002}
   - component: {fileID: 23841209986906210}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scooter_1C_Wheel.F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 33643095252657664}
   - component: {fileID: 23152944022078614}
   - component: {fileID: 64410243904968968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scooter_1C_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 4835771683428568}
   - component: {fileID: 33504115854685748}
   - component: {fileID: 23019284522381516}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scooter_1C_Handlebars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4630243827107250}
   - component: {fileID: -1810815841381036373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scooter_1C
   m_TagString: Untagged
   m_Icon: {fileID: 0}

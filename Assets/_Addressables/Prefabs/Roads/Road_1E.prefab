@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23000014020983264}
   - component: {fileID: 65000013107346074}
   - component: {fileID: 65000012959714072}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 23000011475718722}
   - component: {fileID: 65000011375845902}
   - component: {fileID: 65000012494242318}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 23000010961609592}
   - component: {fileID: 64000013575327376}
   - component: {fileID: -6542159402207802216}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Road_1E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 23000013334180138}
   - component: {fileID: 65000013837004560}
   - component: {fileID: 65000010449287656}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Streetlight_2A (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
