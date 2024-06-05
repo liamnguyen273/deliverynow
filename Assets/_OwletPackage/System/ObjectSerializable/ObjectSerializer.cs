@@ -31,7 +31,9 @@ namespace Owlet
 
             string finalData = JsonConvert.SerializeObject(wrappers);
             SaveJsonToFile(finalData);
+#if UNITY_EDITOR
             AssetDatabase.Refresh();
+#endif
         }
 
         protected void SaveJsonToFile(string jsonData)

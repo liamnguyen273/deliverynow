@@ -17,10 +17,11 @@ namespace DeliveryNow.Gameplay
     {
         public PlayerStateMachine stateMachine;
         [SerializeField] SplineAnimate splineAnimate;
-        Rigidbody rb;
+        [SerializeField] PlayerHitbox playerHitbox;
         public Transform body;
 
         public static Action<PlayerController> onPlayerDataLoaded;
+        public static Action<float> onProgressUpdate;
 
         const float SPEED_DEFAULT = 15f;
         const float BODY_OFFSET = 2.1f;
@@ -38,8 +39,7 @@ namespace DeliveryNow.Gameplay
 
         public void Initialize()
         {
-            rb = GetComponent<Rigidbody>();
-            rb.velocity = Vector3.zero;
+            playerHitbox.ResetState();
             body.transform.localRotation = Quaternion.Euler(Vector3.zero);
 
             isRightLane = true;
@@ -51,20 +51,50 @@ namespace DeliveryNow.Gameplay
             body.transform.localPosition = new Vector3(BODY_OFFSET, 0, 0);
 
             splineAnimate.Updated += CheckFinishLineReached;
+            PlayerHitbox.onCarHit += EndControl;
 
+            onProgressUpdate?.Invoke(0f);
             onPlayerDataLoaded?.Invoke(this);
+        }
+
+        public void ResetStateToContinue()
+        {
+            playerHitbox.ResetState();
+            body.transform.localRotation = Quaternion.Euler(Vector3.zero);
+
+            isRightLane = true;
+            isOccupied = false;
+
+            body.transform.localPosition = new Vector3(BODY_OFFSET, 0, 0);
+
+            splineAnimate.Updated += CheckFinishLineReached;
+            PlayerHitbox.onCarHit += EndControl;
+
+            splineAnimate.NormalizedTime = Mathf.Clamp(splineAnimate.NormalizedTime - 0.05f, 0, 1);
+
+            onProgressUpdate?.Invoke(splineAnimate.NormalizedTime);
+            onPlayerDataLoaded?.Invoke(this);
+        }
+
+        public void EndControl()
+        {
+            splineAnimate.Updated -= CheckFinishLineReached;
+            PlayerHitbox.onCarHit -= EndControl;
+            DOTween.Kill(gameObject);
+            stateMachine.SetState(new PlayerIdle(this));
         }
 
         private void OnDisable()
         {
-            splineAnimate.Updated -= CheckFinishLineReached;
+            StopCar();
+            EndControl();
         }
 
         private void CheckFinishLineReached(Vector3 vector, Quaternion quaternion)
         {
-            float3 lastKnot = splineAnimate.Container.Splines[0].Knots.Last().Position;
-            Vector3 destination = new Vector3(lastKnot.x, lastKnot.y, lastKnot.z) + splineAnimate.Container.transform.position;
-            if (Vector3.Distance(vector, destination) < 0.01f)
+            onProgressUpdate?.Invoke(splineAnimate.NormalizedTime);
+
+            if (splineAnimate.NormalizedTime == 1f)
             {
                 CompleteLevel();
             }
@@ -72,9 +102,9 @@ namespace DeliveryNow.Gameplay
 
         void CompleteLevel()
         {
-            Debug.Log("Level Complete");
-            splineAnimate.Updated -= CheckFinishLineReached;
-            stateMachine.SetState(new PlayerIdle(this));
+            //Debug.Log("Level Complete");
+            EndControl();
+            StopCar();
             GameManager.instance.CompleteLevel();
         }
 
@@ -89,12 +119,14 @@ namespace DeliveryNow.Gameplay
                 .Append(body.DOLocalRotate(rotateAngle, ROTATE_TIME))
                 .Join(body.DOLocalMove(newPosition, MOVE_TIME))
                 .Append(body.DOLocalRotate(Vector3.zero, ROTATE_TIME))
-                .JoinCallback(() => { isOccupied = false; });
+                .JoinCallback(() => { isOccupied = false; })
+                .SetTarget(gameObject);
 
 
             isRightLane = !isRightLane;
         }
 
+        #region Car Engine
         [Button]
         public void StartCar()
         {
@@ -120,7 +152,7 @@ namespace DeliveryNow.Gameplay
             tweenerSpeed = DOVirtual.Float(SPEED_DEFAULT, 0.001f, BRAKE_TIME, (float value) =>
             {
                 UpdatePathSpeed(value);
-            });
+            }).SetTarget(gameObject);
         }
 
         public void StartEngine()
@@ -129,7 +161,7 @@ namespace DeliveryNow.Gameplay
             tweenerSpeed = DOVirtual.Float(0.001f, SPEED_DEFAULT, BRAKE_TIME, (float value) =>
             {
                 UpdatePathSpeed(value);
-            });
+            }).SetTarget(gameObject);
         }
 
         private void UpdatePathSpeed(float newSpeed)
@@ -138,5 +170,6 @@ namespace DeliveryNow.Gameplay
             splineAnimate.MaxSpeed = newSpeed;
             splineAnimate.NormalizedTime = prevProgress;
         }
+        #endregion
     }
 }

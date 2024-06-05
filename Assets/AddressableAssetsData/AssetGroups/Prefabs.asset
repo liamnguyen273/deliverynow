@@ -3347,6 +3347,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Prefabs
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c362a9dd6639e6e4ba1acf050bccda5c
+    m_Address: Coin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7a5a4e294f7cc0b418e0fed876aef0dc, type: 2}
   m_SchemaSet:

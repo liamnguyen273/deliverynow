@@ -180,9 +180,10 @@ GameObject:
   - component: {fileID: 7219290756891503925}
   - component: {fileID: 6296165746696002084}
   - component: {fileID: 7142539007868457563}
+  - component: {fileID: 8874942883749472061}
   m_Layer: 7
   m_Name: Car_16A
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -319,6 +320,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8874942883749472061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010340674042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075399833aa9c944eb597b76281fab00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1000010453691698

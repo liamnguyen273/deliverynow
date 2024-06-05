@@ -15,11 +15,13 @@ namespace DeliveryNow
         {
             virtualCamera = GetComponent<CinemachineVirtualCamera>();
             PlayerController.onPlayerDataLoaded += LockOnPlayer;
+            PlayerHitbox.onCarHit += RemoveAim;
         }
 
         private void OnDestroy()
         {
             PlayerController.onPlayerDataLoaded -= LockOnPlayer;
+            PlayerHitbox.onCarHit -= RemoveAim;
         }
 
 
@@ -27,6 +29,12 @@ namespace DeliveryNow
         {
             virtualCamera.Follow = player.body;
             virtualCamera.LookAt = player.body;
+        }
+
+        public void RemoveAim()
+        {
+            virtualCamera.Follow = null;
+            virtualCamera.LookAt = null;
         }
     }
 }

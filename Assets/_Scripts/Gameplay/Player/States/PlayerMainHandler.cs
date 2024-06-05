@@ -18,7 +18,6 @@ namespace DeliveryNow.Gameplay
 
         public override IEnumerator OnStateExit()
         {
-            playerController.StopCar();
             return base.OnStateExit();
         }
 

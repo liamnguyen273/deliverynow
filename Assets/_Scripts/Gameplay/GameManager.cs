@@ -11,9 +11,22 @@ namespace DeliveryNow
     public class GameManager : Singleton<GameManager>
     {
 
+        PlayerController playerController;
+        protected override void Init()
+        {
+            PlayerController.onPlayerDataLoaded += SetPlayer;
+            Application.targetFrameRate = 60;
+            base.Init();
+        }
+
         private void Start()
         {
             StartLevel();
+        }
+
+        void SetPlayer(PlayerController playerController)
+        {
+            this.playerController = playerController;
         }
 
         public void StartLevel()
@@ -34,6 +47,11 @@ namespace DeliveryNow
         {
             StartLevel();
             Debug.Log("Restart Level");
+        }
+
+        public void ContinueLevel()
+        {
+            playerController.ResetStateToContinue();
         }
 
         public async void CompleteLevel()

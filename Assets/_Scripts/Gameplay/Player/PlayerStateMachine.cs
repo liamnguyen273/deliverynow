@@ -8,7 +8,7 @@ namespace DeliveryNow.Gameplay
     [RequireComponent(typeof(PlayerController))]
     public class PlayerStateMachine : MonoBehaviour
     {
-        protected State state;
+        public State state { get; private set; }
         PlayerController playerController;
 
         private void Awake()
@@ -30,6 +30,7 @@ namespace DeliveryNow.Gameplay
 
         public void SetState(State newState)
         {
+            if (!gameObject.activeInHierarchy) return;
             Debug.Log(newState);
             if (state != null) StartCoroutine(state.OnStateExit());
             if (newState == null) return;

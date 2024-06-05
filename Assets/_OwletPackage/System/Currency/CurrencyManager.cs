@@ -3,6 +3,7 @@ using Owlet.Systems.SaveLoad;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
@@ -36,21 +37,21 @@ namespace Owlet.Systems.Currency
 
         public bool CheckEnough(string currencyID, int amount)
         {
-            if (currencyTypes.Find(x => x.currencyName == currencyID) == null) return false;
+            if (!data.currency.ContainsKey(currencyID)) return false;
             return data.currency.ContainsKey(currencyID) && data.currency[currencyID] >= amount;
 
         }
 
         public int GetResource(string currencyID)
         {
-            if (currencyTypes.Find(x => x.currencyName == currencyID) == null) return 0;
+            if (!data.currency.ContainsKey(currencyID)) return 0;
             return data.currency[currencyID];
         }
 
         public bool UseResource(string currencyID, int amount, string source = "")
         {
-            if (currencyTypes.Find(x => x.currencyName == currencyID) == null) return false;
-            if(data.currency.ContainsKey(currencyID) && data.currency[currencyID] >= amount)
+            if (!data.currency.ContainsKey(currencyID)) return false;
+            if(data.currency[currencyID] >= amount)
             {
                 CurrencyType currency = currencyTypes.Find(x => x.currencyName == currencyID);
                 data.currency[currencyID] -= amount;
@@ -62,15 +63,11 @@ namespace Owlet.Systems.Currency
 
         public bool GainResource(string currencyID, int amount, string source = "")
         {
-            if (currencyTypes.Find(x => x.currencyName == currencyID) == null) return false;
-            if (data.currency.ContainsKey(currencyID))
-            {
-                CurrencyType currency = currencyTypes.Find(x => x.currencyName == currencyID);
-                data.currency[currencyID] += amount;
-                onResourceGained?.Invoke(currency, data.currency[currencyID], source);
-                return true;
-            }
-            return false;
+            if (!data.currency.ContainsKey(currencyID)) return false;
+            CurrencyType currency = currencyTypes.Find(x => x.currencyName == currencyID);
+            data.currency[currencyID] += amount;
+            onResourceGained?.Invoke(currency, data.currency[currencyID], source);
+            return true;
         }
 
         public string Save()

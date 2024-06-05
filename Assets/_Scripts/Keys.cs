@@ -33,8 +33,14 @@ namespace DeliveryNow
             public static partial class Tags
             {
                 public static readonly string Transform = "transform";
+                public static readonly string Coin = "coin";
                 public static readonly string Player = "player";
                 public static readonly string Spline = "spline";
+            }
+
+            public static class Address
+            {
+                public static readonly string Coin = "Coin";
             }
         }
 
@@ -49,6 +55,7 @@ namespace DeliveryNow
         {
             public static readonly string TapToStart = nameof(TapToStart);
             public static readonly string LevelComplete = nameof(LevelComplete);
+            public static readonly string LevelFail = nameof(LevelFail);
         }
 
         public static class Layers
@@ -56,6 +63,17 @@ namespace DeliveryNow
             public static readonly string Player = nameof(Player);
             public static readonly string Obstacle = nameof(Obstacle);
             public static readonly string PlayerHitBox = nameof(PlayerHitBox);
+        }
+
+        public static class Tags
+        {
+            public static readonly string Player = nameof(Player);
+            public static readonly string Obstacle = nameof(Obstacle);
+        }
+
+        public static class Currency
+        {
+            public static readonly string Coin = nameof(Coin);
         }
     }
 }

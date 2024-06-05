@@ -200,9 +200,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4854184730730522}
   - component: {fileID: -8710713537929261067}
+  - component: {fileID: -6350177201526525189}
   m_Layer: 7
   m_Name: Scooter_1A
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,6 +235,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6350177201526525189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459134165095346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075399833aa9c944eb597b76281fab00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1525031485505392

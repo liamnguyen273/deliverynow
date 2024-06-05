@@ -2,6 +2,7 @@ using Newtonsoft.Json;
 using Owlet;
 using Owlet.Systems.Currency;
 using Owlet.Systems.SaveLoad;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,8 @@ namespace DeliveryNow
     public class PlayerDataManager : Singleton<PlayerDataManager>, ISaveable
     {
         [SerializeField] PlayerData data;
+
+        public static Action<int> onCurrentLevelChange;
 
         protected override void Init()
         {
@@ -26,6 +29,7 @@ namespace DeliveryNow
         public void IncreaseCurrentLevel()
         {
             data.currentLevel++;
+            onCurrentLevelChange?.Invoke(data.currentLevel);
         }
 
 

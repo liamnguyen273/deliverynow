@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: -4002627766847525}
   - component: {fileID: 1835624885553097276}
   - component: {fileID: 4966157004580036122}
+  - component: {fileID: -2085272958853316473}
   m_Layer: 7
   m_Name: Car_4D
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,6 +174,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2085272958853316473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011187822232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075399833aa9c944eb597b76281fab00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1000011375465342

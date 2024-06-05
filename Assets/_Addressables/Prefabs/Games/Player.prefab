@@ -261,6 +261,8 @@ GameObject:
   - component: {fileID: 141740465514989722}
   - component: {fileID: 111631870691793004}
   - component: {fileID: 119367027785214194}
+  - component: {fileID: 4978910543346262648}
+  - component: {fileID: 5457056945666100933}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -336,6 +338,47 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4978910543346262648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142470659091833454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a1054fecb249446b7ac9e22a334962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 5457056945666100933}
+  playerController: {fileID: 2778960649230038332}
+--- !u!54 &5457056945666100933
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142470659091833454}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &142470660479349008
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,14 +558,13 @@ GameObject:
   - component: {fileID: 2778960649230038332}
   - component: {fileID: 8444144996322522038}
   - component: {fileID: 8885961476614609070}
-  - component: {fileID: 4817644155155737950}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2469674607001183695
 Transform:
   m_ObjectHideFlags: 0
@@ -576,6 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateMachine: {fileID: 8444144996322522038}
   splineAnimate: {fileID: 6724367940291599692}
+  playerHitbox: {fileID: 4978910543346262648}
   body: {fileID: 141740465514989722}
 --- !u!114 &8444144996322522038
 MonoBehaviour:
@@ -601,33 +644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cea4adb913b0284693e7ff65bdfd85e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &4817644155155737950
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2838663915066616833}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &5913430511840159222
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,10 +707,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9040037143477362165}
   - component: {fileID: 1669437451852261910}
-  - component: {fileID: 8007284229969870789}
   m_Layer: 0
   m_Name: HitBox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -724,29 +739,17 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 193
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 119
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+    m_Bits: 54
+  m_LayerOverridePriority: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 2.5, y: 1.7, z: 3.5}
   m_Center: {x: 0, y: 1, z: 0.5}
---- !u!114 &8007284229969870789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6007849054211734508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66a1054fecb249446b7ac9e22a334962, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7975884469513177448
 GameObject:
   m_ObjectHideFlags: 0

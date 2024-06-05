@@ -16,7 +16,2485 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: a789825b04f85fb4f813ee12d455dd89
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 5163751b560ee5345be58ab0867d39e8
+    m_Address: R_Building_21A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a755b30c77874d9d99b0580646fd6bb
+    m_Address: R_Pipe_3D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4ba30eaaeb6a4c11bdfcaa0b845e55b
+    m_Address: R_Streetlight_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 143a0a9391e4d4429bfc943c501d86ab
+    m_Address: R_Antenna_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a6e72240a88947e0a8d4ab6b3721d7d
+    m_Address: R_Concrete_Fence_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0251e1a93cdd347689853a7d490b5d2e
+    m_Address: R_Road_1X
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0be3abc3e55d43dc9977895201f216c
+    m_Address: R_Parking_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a100d3ace2a27453f810e772514c1423
+    m_Address: R_Skyscraper_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9ba9b2e2ab134de8bfc48cea85995e5
+    m_Address: R_Barrel_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 381287369773746258bd61376ec4fdfd
+    m_Address: R_Pipe_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e7191752a1d49fca1fcb6d538d3ba8
+    m_Address: R_Road_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 586a06e403aac46df84d67d2b7e769b7
+    m_Address: R_Air_Vent_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e94460e305dc242e3b53b8c6d2a4c46a
+    m_Address: R_Pipe_Support_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aac565e736914b61ae6958ef53191b0
+    m_Address: R_Flower_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 521c64171f22a41c0ba6d2af01834071
+    m_Address: R_Service_Helicopter_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3dd6a2c40feb481189c95be589b3ee3
+    m_Address: R_Tree_1J
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 561a0c3bc3bb84cdbbb81631905426d4
+    m_Address: R_Air_Conditioner_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b08761f3155c240a884b1b03d9e7a466
+    m_Address: R_Car_15B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d073f3920ce554ea4a5c4062e1654189
+    m_Address: R_Road_1H
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1cf4aadedcd248668b0967575f56594
+    m_Address: R_Building_14D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f99c95d7fedd443e7af91cb828502363
+    m_Address: R_Billboard_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c37755b85c734f92a85adc38d0e252a
+    m_Address: R_Building_13C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e6c322c3933e499c979512a9a744c4b
+    m_Address: R_Road_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8caf03365f52a4fddae22a527b8b7d6e
+    m_Address: R_Pavement_1E_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e751cbd791ea476493941cca6451107
+    m_Address: R_Safety_Net_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1173eb7eed65d4f33bd29d72314c58d4
+    m_Address: R_Flower_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c16f4516d0712441cbd6780a494d38ef
+    m_Address: R_Building_17C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6e22a565cb7249239cc97b313ab6df1
+    m_Address: R_Highway_1I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c254ddc22fd494b87af0dd1cdddff151
+    m_Address: R_Emergency_Stairs_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31603b9a26fb64c48806bc9149516f10
+    m_Address: R_Tree_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69f12bb0b0d0e4dceb73e4d418fb1a29
+    m_Address: R_Plant_Pot_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35569e37d98f44540824608c5543a8a1
+    m_Address: R_Highway_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba17602784a824aabb670023d98c369e
+    m_Address: R_Road_1V
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc9097cd4f11a4346aa946000c95e570
+    m_Address: R_Metal_Pole_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7e7796ec2844dd1a5b08a4255e8192
+    m_Address: R_Pavement_1C_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66ecf6959b77c428c8ab87f296d79d70
+    m_Address: R_Road_1R
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e13e69bd793e4b96b13ad04694b1670
+    m_Address: R_Building_5E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e53b044525a3b4c6db7b8f681cd28632
+    m_Address: R_Road_1A_+4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44e5913988dcc4a0eba27d640ba7cec3
+    m_Address: R_Highway_Barrier_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b2c2a5ff42cd4a16b004f6837ad411e
+    m_Address: R_Streetsign_2H
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7baaf90a355424e4db7dd585eeb91a2d
+    m_Address: R_Road_1Q
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed38e733abeb0486aa4d1363088ffe8c
+    m_Address: R_Car_10D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42cf2bbea697e447ca09e5b5d3f59dbc
+    m_Address: R_Antenna_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c12aa84792d94308bc69b609b1d5f21
+    m_Address: R_Road_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8e6180a0e0004f69b20c703108437de
+    m_Address: R_Emergency_Stairs_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb4e4d398b78d4d788daf6f73b8da0e4
+    m_Address: R_Car_7E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09b5915596ecb4252a2b5788ed8c10b1
+    m_Address: R_Paper_Pack_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a7b76b561a0c4fefbfa08eab6090ce1
+    m_Address: R_Safety_Net_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42db457c5ec4849fba8bbd284363367e
+    m_Address: R_Tree_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8f57694177d6492399304215d2321d3
+    m_Address: R_Car_4E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 015998974f2e14acfbf229e3d7406009
+    m_Address: R_Parking_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b37391270c76446ff8df1f21c611d7a3
+    m_Address: R_Building_4A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd96fd95a59534af5902118ea7a0a028
+    m_Address: R_Car_15D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea9af85fbb01045f88631105dc21b51f
+    m_Address: R_Highway_Barrier_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f93e457da715e4a099679f602007dea3
+    m_Address: R_Building_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4be0cc3e886c4a6d878f9f15b7a347d
+    m_Address: R_Metal_Fence_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c74364956c42438a97158c9e2e06f02
+    m_Address: R_Pavement_1J_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17d20cc58202341d59e5e193e0455773
+    m_Address: R_Streetlight_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f81c4740780cb49958cc78b362ebddb4
+    m_Address: R_Car_17A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8643f5dbacc76534c8ceaebeab4831c0
+    m_Address: R_Building_21C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d8945c2c36b447deb7ed22a6aa29c0b
+    m_Address: R_Cable_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a33637cfb173de498c22a60a0d3df4a
+    m_Address: R_Building_19A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b85bff7e64fe24fbc90d26b85d7caf28
+    m_Address: R_Highway_Streetlight_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 708a0a8281af64061aa425d50ecc3b9e
+    m_Address: R_Bench_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45f0ac7863fcf4a57bf82430ddd13f7e
+    m_Address: R_Billboard_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71c8fde6bda304a5690be131c18541b8
+    m_Address: R_Highway_1F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f2ae1c9b197b477089f2ce5b07e4acb
+    m_Address: R_Barrel_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 711cf863222bc4da1ac5e4b673ea7ebc
+    m_Address: R_Building_4B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8f0b35652ebf41d6878e8c12687933c
+    m_Address: R_Trash_Bag_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4006ac4982f2345aaae09e461e4a0927
+    m_Address: R_Metal_Fence_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf69520a84f684855bfe09f9d165678d
+    m_Address: R_Safety_Net_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7724a315680e41169efac119bfb4526
+    m_Address: R_Umbrella_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e49ae156eec684104a64e4ebdc04995f
+    m_Address: R_Car_6D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 807b53128105548b1bff10b9f24588d4
+    m_Address: R_Antenna_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcc04164f0fa84a43904b59a12f122be
+    m_Address: R_Mailbox_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 884cd742bc8da4afcbb95d3b22f72a91
+    m_Address: R_Power_Box_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50acf019f1c284014b82d42d57180275
+    m_Address: R_Car_4D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2adab2e80fbf549e59d47bb3100036a8
+    m_Address: R_Billboard_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb6be7740cc80448cb13f1349ad27d0e
+    m_Address: R_Bush_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e297698a6e2e240c4958fc96d6d03d3f
+    m_Address: R_Building_4C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e2b9dfdabf9244b48508bbd06be82d5
+    m_Address: R_Safety_Net_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d83045c53c2f4421b9d40e3a5010533
+    m_Address: R_Pipe_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ab3920a2fa8040ef8961a6a59ad8b0c
+    m_Address: R_Tree_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aff4650069c64989a65e099e302c9bc
+    m_Address: R_Billboard_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dffe37fcfc3e645de9cf68dc2d60d42e
+    m_Address: R_Road_1A_+2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30a2354c2d309432d858748d26ef1913
+    m_Address: R_Plant_Pot_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f407096f3a94641f697bc78c19f094ac
+    m_Address: R_Pipe_1G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1ea6649299e44167ac00c79989afae4
+    m_Address: R_Building_9C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb7f197a385154191bc6e6d2b8d712a3
+    m_Address: R_Skylight_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5de87107cb4d54d459c89b74f1a2480f
+    m_Address: R_Pavement_1D_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 244585392ec9e44f7a1ebfcd9a719ddf
+    m_Address: R_Pavement_1E_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a82d02878846491bba9785f7a8241e4
+    m_Address: R_Grass_Patch_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf5ace9df4cf8401195ea60ce2f6e1a7
+    m_Address: R_Pipe_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b65883f955ddd45a4a559fd44cb147d7
+    m_Address: R_Streetsign_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f61b9db21ce94c099df549d6e8b7ef1
+    m_Address: R_Road_1O
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 789824483fb724c28ac467249cf241d7
+    m_Address: R_Streetlight_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b27ea218c5e0b481a887ea2107f08ff1
+    m_Address: R_Pipe_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7ceddb9cb96c47c0bd3686331e3e12b
+    m_Address: R_Bench_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 053ef14f1b06f461fbd0fa257bb327a2
+    m_Address: R_Flower_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e86a7404e334f342ba9b2ad0f50f28d
+    m_Address: R_Building_20B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7aad6f40e5cd4f8e99fe3177bbd43ae
+    m_Address: R_Road_1K
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e89bd5418df1a406b96abc588d84a94f
+    m_Address: R_Highway_Barrier_1I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6a1a69b1567a408f979025c5ecfa1b6
+    m_Address: R_Highway_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4abdfab006f304781adb82f05bed6a9a
+    m_Address: R_Car_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c81dfd067c0c7406c83f0ee8d0572748
+    m_Address: R_Pavement_1A_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5145e65b19eb84f958a12a66e0c3cc40
+    m_Address: R_Billboard_2E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43ea7ce8e28a2429c8494b95a7d1985d
+    m_Address: R_Water_Tank_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 095ef1468e15146d28a7414640c14ac3
+    m_Address: R_Tree_2G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1927df2acc96848ef83813706d5ab552
+    m_Address: R_Safety_Net_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eaf2c73d05a949ec8ddd30226683cb9
+    m_Address: R_Pavement_1J_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba5c1bd602a664c9388cd8ba044b889f
+    m_Address: R_Grass_Blade_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d24ff4e868bb4ffb9c61468ce46daa1
+    m_Address: R_Bush_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 383bc32c597ff445f86d759208619208
+    m_Address: R_Table_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 694ff912bd5034b1f9394d4b7f101981
+    m_Address: R_Scaffolding_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05754973f08aa44c18d60847e49e82d5
+    m_Address: R_Streetlight_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 427a825c59e71443c99136b686c14b01
+    m_Address: R_Pipe_2E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af6e343dcaae64981aa9657b8199db86
+    m_Address: R_Road_1U
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d553d87d604a34c83a750a9b1fba0a89
+    m_Address: R_Cable_Pole_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2820fc84ad5484db88de8036c05dc46b
+    m_Address: R_Billboard_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52b8a73c9591d4dd2a3328cad4b2a315
+    m_Address: R_Building_17B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a53c222a222f54e6ca243ddc16b8fba0
+    m_Address: R_Roundabout_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bef882e6df794a98a3b89fd4dbd5038
+    m_Address: R_Scaffolding_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7d552eeaf336408fb986540d9945a1a
+    m_Address: R_Safety_Net_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70bccb82c847f4800b4e44a7a8c5749d
+    m_Address: R_Safety_Net_2E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b08fc136e4a747dda1fb904b1ecf779
+    m_Address: R_Emergency_Staircase_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8419d0da1b65243c0a6e9718143f5d6f
+    m_Address: R_Plant_Pot_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9328b0533073e441e868c970f1872e7f
+    m_Address: R_Pipe_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20fff7ab89f3a4db8bfa7f725100b529
+    m_Address: R_Tree_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ac61ee29e59548c5beb52c0152abffe
+    m_Address: R_Pavement_1A_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8389e9a7635b94b51ab2fd44b3a60332
+    m_Address: R_Wooden_Box_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd553e857aea844f5865f42174607d9e
+    m_Address: R_Pavement_1F_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2561833e4d20f45ff85885a96d7483a6
+    m_Address: R_Highway_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cb5f177a2ff89b4bb29786924d24e2f
+    m_Address: R_Pavement_Special_1A_12X12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a38e6df64aaa4469bb45c73f4bdfee1
+    m_Address: R_Umbrella_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 827d45c92708d42c0999b10db7b93ca6
+    m_Address: R_Road_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75a59e797287e4f06a3741d4e57d3bb1
+    m_Address: R_Cable_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b613eca0fb434463dbce236b80f2bec8
+    m_Address: R_Window_Washer_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 050544828e0284a78bac9e6cc017fbfa
+    m_Address: R_Umbrella_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64da3c0a901c842a3b1649b86c7ba990
+    m_Address: R_Bush_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7dc02fcfd2ca4c4b9908dfd92472262
+    m_Address: R_Bush_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a7b2eae2d3894c8c833f2a35342dc1a
+    m_Address: R_Umbrella_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68ae9f0252bd742838f697653c4b3a24
+    m_Address: R_Traffic_Cone_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbdcba291129e4625adfb401c5bb02a5
+    m_Address: R_Air_Conditioner_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22f1b59a69844a1f964e7058f5ac39b
+    m_Address: R_Pipe_3G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcea97440145f4508a2d9e40fbda587a
+    m_Address: R_Tree_4B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39c1c214652e343bd84af9d0bbd9ab56
+    m_Address: R_Water_Tank_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a065f56587abe4529af34cf7fc9ef8da
+    m_Address: R_Building_12C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84a100e6177504842bce178e20e09950
+    m_Address: R_Cloud_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f3848647f4a9458bbba8b17300158bc
+    m_Address: R_Pavement_1N_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d8f66d00c4dc436f813b766226049e8
+    m_Address: R_Bench_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8ec1662cf57e45e8b05de1557431119
+    m_Address: R_Tree_2F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e8892dc5812d4bd6be1ad2b8cf2ba24
+    m_Address: R_Air_Vent_3C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86742461d1004449ca519adcd51e37c1
+    m_Address: R_Road_1F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4714ae6187ae34cc2bf4c3bb93ee3990
+    m_Address: R_Highway_Barrier_1G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a07c258f9e20844b8aec953483768af0
+    m_Address: R_Helipad_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a8f1e3d95e67444fba11eed5fd7c518
+    m_Address: R_Road_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c750713b71fb44afb963bc4a1b47f167
+    m_Address: R_Air_Vent_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e777c4cf82df4b8e90ee8a5e05c771c
+    m_Address: R_Building_12B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6805831dff5640cc9e4a1457f32a690
+    m_Address: R_Building_13D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a731dcd9c5fe1419583947bfe55a186f
+    m_Address: R_Bench_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d57d33b218cab4cd0ae33e74d6a32f75
+    m_Address: R_Streetsign_2I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cfa057c531244039a04c3df48c243bd
+    m_Address: R_Flower_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5567181a6448241269d3fd658a46598b
+    m_Address: R_Pipe_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 243edab48627146d085af9cbad555531
+    m_Address: R_Safety_Net_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 023330564f43c4d5c8c7c13f7ff35a7f
+    m_Address: R_Car_9A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaddedfee8e44441a9f5111474d8baf8
+    m_Address: R_Building_11B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc5230bf3f40d4e93a85898471688ef2
+    m_Address: R_Car_14D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0aaf9179aed9b4ee98bdd9dfd47177c3
+    m_Address: R_Building_14B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20c0e5d644b9b45998aa3c8682bbb8ee
+    m_Address: R_Tree_1H
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b033e388eb33b87408d3325f7ab1729e
+    m_Address: R_Rock_Cluster_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16adb04dab7cf404795fd2d3a61710ab
+    m_Address: R_Road_1J
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2eef51b4dc3714916ae74a0ce7ab1876
+    m_Address: R_Highway_Barrier_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c340d33b33ef457396704498340d1b8
+    m_Address: R_Bush_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 862dea0a1a252483fb67c87c89e390dc
+    m_Address: R_Car_6E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47f6695cd120f4ec5828bb4dcea2ded4
+    m_Address: R_Streetsign_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b0c7bb2c414847bd900e55e6954cd0b
+    m_Address: R_Manhole_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d6c665b43b54b25962ef6080d2f43e
+    m_Address: R_Car_7F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f602a93b0ade413a954791a53a6f430
+    m_Address: R_Pipe_3E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59856a4694321443e98d18697b5ab08d
+    m_Address: R_Car_16B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 317da6551fd044343a0f9f4a86a4e146
+    m_Address: R_Billboard_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e35419443e89e4ad6bd1b8259b21a12c
+    m_Address: R_Pavement_1L_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e16050f5a6524081805239a55c3f5a5
+    m_Address: R_Solar_Panels_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 910d45968e2574c8f8dee24e3b0d1000
+    m_Address: R_Grass_Blade_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7a9ae9c042bd4058baa6b09244fa983
+    m_Address: R_Trash_Container_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf7e6b81b70cb43cd96a7d7fb256a426
+    m_Address: R_Tree_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b75e9f38956a44bfbdded4cc245f404
+    m_Address: R_Safety_Net_3D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2c8b863959654cdb9c6ecb023993f67
+    m_Address: R_Cable_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df2c34ff68eb74c8a95d382ecf2caa82
+    m_Address: R_Tree_1G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6032c41da634441086fb8ac02f50437
+    m_Address: R_Bush_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cea4f3c6b3bbeac46936c8b0ea1e6088
+    m_Address: R_Building_20C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8126debf85b642a5af8ef3772376a16
+    m_Address: R_Paper_Pack_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6e95be4557914ee9b69e759fdc96424
+    m_Address: R_Pavement_1K_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38088616869134d32bceca564ba5668d
+    m_Address: R_Safety_Net_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f25ac7c4a34e45b0aec84d5b8a5f5e8
+    m_Address: R_Trash_Container_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f0d7b7bb323f4dcaa03e79518e7efe1
+    m_Address: R_Hydrant_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60f7e52af3cf643c8aa5b3f1ecb223ee
+    m_Address: R_Building_5C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e83793659c160404f8f2ba4345086bfd
+    m_Address: R_Pavement_1B_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 976644647915f4a24bb380ba1520acee
+    m_Address: R_Streetsign_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b6a44f34a65c42dcb0c87b7c9fc089a
+    m_Address: R_Building_13B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33868fa970ec04039a00af70e4fff9e0
+    m_Address: R_Building_7A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ba0ccf3815b240f88d940cd968c95e2
+    m_Address: R_Pavement_1H_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f0ac9dfc634d4f2f9529e9117a6240f
+    m_Address: R_Highway_1G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 973e96e00a4a348cd80d3e42c205391c
+    m_Address: R_Metal_Pole_Chain_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0703a3f4e339242dfa170659981a6875
+    m_Address: R_Pipe_3C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7365c90ef26b145069f231786bbd16c3
+    m_Address: R_Trash_Can_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 962e4175d37c44ac3a17667139b3666a
+    m_Address: R_Metal_Pole_Chain_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1def251fe9f71431e939f41043996980
+    m_Address: R_Road_1M
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 605646a8b41444c95a9994055ea6412b
+    m_Address: R_Building_5A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 352a1eb82814a49ccad95eff638bd168
+    m_Address: R_Traffic_Cone_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6060e285fc7084678926a3710c6cd5ad
+    m_Address: R_Paper_Pack_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e7e6c2ac2aa440dc9d2fe17e1066310
+    m_Address: R_Road_1I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 627e444f74c8f45d5aace4c37db6e3be
+    m_Address: R_Umbrella_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aeba427a9a9f42c68181df430183d78
+    m_Address: R_Flower_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ded5eed9dda94505a98bb4e4956e010
+    m_Address: R_Pavement_1E_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d95cc6234e7884abc97d9c04cb1688cb
+    m_Address: R_Pipe_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44970dc49edfd42168892f98c0bf99b3
+    m_Address: R_Tree_4A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6272aca4dd91a44c5a9e474d8026a7f5
+    m_Address: R_Billboard_2F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 339f640be4fc84be7a3f69a9ddb90781
+    m_Address: R_Building_17A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c9523c21fc7b43ec9c9bd22fff94472
+    m_Address: R_Building_10B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ac19081afc8e4451ae781797d267ceb
+    m_Address: R_Highway_Barrier_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bd9132f761ce49debf886b276ae48ed
+    m_Address: R_Pipe_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86149fee79ef4441b9a6e5bd4a975a7e
+    m_Address: R_Building_15B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f63cdf872fcc44f29eb7376b525b958
+    m_Address: R_Billboard_3C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92f60a77de36d4548a607c2362a5c5f7
+    m_Address: R_Building_20A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64763a58801324fc2b8b66166b350913
+    m_Address: R_Streetlight_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd3dbea8bbf224fedbfb06d0e03f68c6
+    m_Address: R_Streetlight_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf49d2482cbc6482a950a75fca618923
+    m_Address: R_Tree_2E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80d7bfc19c4084a94830df4e4a1782c2
+    m_Address: R_Pipe_1F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a09dcabfdc67840d0bf94a139b55acbf
+    m_Address: R_Cable_Pole_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0387743f1f39c4e1cb30f6abc8a0a285
+    m_Address: R_Road_1T
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9828ee4d69188946a4ca1d60e8e6e1d
+    m_Address: R_Building_21B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41e2dd75ea19e45f4b3d7fc8861d4216
+    m_Address: R_Traffic_Cone_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe2e91a7fd42b4cbd9012fd106a3f056
+    m_Address: R_Pavement_1G_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 451472fded1354df4a4e2b489e6c29b2
+    m_Address: R_Road_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27b0575c0a40b4b81a3c970907b964cc
+    m_Address: R_Tree_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81375bf844bc0492c866421d3d04d06b
+    m_Address: R_Air_Vent_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 226f0f1ceed644fe4aa2086390c21107
+    m_Address: R_Plant_Pot_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e25e0215971e147af996e9b70a074bb4
+    m_Address: R_Cable_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f0eb3702df2a47d5a9376b804d4e8da
+    m_Address: R_Concrete_Fence_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42e6246547ec34ac38785dddea6ef0a6
+    m_Address: R_Road_1G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adbfb0ea6b00f4db69fc5b63bad03272
+    m_Address: R_Skyscraper_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ec262734df084ecd9a9c4875c2823fe
+    m_Address: R_Trash_Bag_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be9718dc23644d18acdd35b00f3c50e
+    m_Address: R_Cable_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20d6aa7b88ed04d2d953ca31a7300fa7
+    m_Address: R_Car_3C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af3d0bfe4fd004b8394c34f7bc9f1905
+    m_Address: R_Trash_Bag_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f2b637f97f424e1b9444cf698a96098
+    m_Address: R_Streetsign_2F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa299d0ef3e1246a19101d0585ab58b2
+    m_Address: R_Pavement_1A_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e521f02658324abbab69a55bd759586
+    m_Address: R_Skyscraper_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1149a39f975874c679c4b85920e0dee4
+    m_Address: R_Pavement_1J_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e64733fa0a2a42bda6552028f776f90
+    m_Address: R_Highway_Streetsign_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5090e9750aa4240afb23f18bb9c2d2c0
+    m_Address: R_Highway_Streetsign_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3ca103eaaba440b4a3a85944feec96b
+    m_Address: R_Cable_Pole_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97284383ad48547a19917b4de315ab5f
+    m_Address: R_Car_15C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fef13f2790a040669fc2301af1fc756
+    m_Address: R_Car_8D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2eb139407852141bdaba5b7cebe15d39
+    m_Address: R_Cloud_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f03e2664faea453b8f73b2a741eeed7
+    m_Address: R_Barrel_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf2e1870321424c9584d0b7e348293da
+    m_Address: R_Safety_Net_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75cd264edb0db4eb9bfef12bd4ed8136
+    m_Address: R_Trash_Bag_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fb0d48d83a1f44e692670a1de183f9e
+    m_Address: R_Safety_Net_3E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: add7387a7e7874264b43cfeaab18ad1a
+    m_Address: R_Trash_Container_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac0cbfbffdba744f190a54c9d53fee3d
+    m_Address: R_Flower_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90eb6ade6b93c47b68746fc8b7141ba7
+    m_Address: R_Paper_Pack_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cba1974d49993dc4a9249b81bd9ce344
+    m_Address: R_Rock_Cluster_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: facfce3bcb6af4036b518d1f0157a325
+    m_Address: R_Trash_Container_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c769845a248254ac283b5bff80d7875d
+    m_Address: R_Highway_Fence_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d6513cfdf6234892a325d7cdc6ceb83
+    m_Address: R_Road_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61ca42712c0214b64a96d802b7534e63
+    m_Address: R_Tree_2J
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d8627a1e60c46419078c35d9d0848b
+    m_Address: R_Cable_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b8324224005d416885fedf467f9cf7e
+    m_Address: R_Building_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5af023728812d4b659f75c89ae7e3050
+    m_Address: R_Light_Projector_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9bb93aecd31e4016a1a0673bc55e56a
+    m_Address: R_Safety_Net_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff09c0be006664b9e8c0bd63c15e43bc
+    m_Address: R_Building_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7848929fbf76458eb36860f19b25122
+    m_Address: R_Flower_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61ad7b8ae137a4190890fdc4d8e8b553
+    m_Address: R_Building_8A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8abea0e287c7d4919b029f011cc15b11
+    m_Address: R_Concrete_Barrier_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2528c02f0bb39d94da40c78b108c6a52
+    m_Address: R_Pavement_Special_2A_8X8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eb773fbf1eca4a3f99532c01dc48944
+    m_Address: R_Pavement_1C_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c042bc19a1e0e4690bb773ea6caf945e
+    m_Address: R_Air_Conditioner_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6e1cc44df224478886f61e51d8cad5a
+    m_Address: R_Streetsign_2G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e012501da3bfd47a5bad3d76b122263d
+    m_Address: R_Building_16C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec27ef137ef6941a9a5ae1eb60d40f97
+    m_Address: R_Pavement_1D_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c331904bb71d4fe8a8daeb43d31bc70
+    m_Address: R_Highway_1H
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9dc24a09325e4526a8d544cee0ae932
+    m_Address: R_Bush_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91fbf54be0106d140945df52c6ce0b14
+    m_Address: R_Building_22A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72a0866f097604a42bf86659ad02c7cd
+    m_Address: R_Tree_2I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e0370dbdfb6e422085eb9fdf7839e64
+    m_Address: R_Billboard_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2d29264394724357b6176c353ddcc32
+    m_Address: R_Wooden_Pallet_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce08de542d87143b988f151c70613f87
+    m_Address: R_Trash_Can_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea81913e4b5e94e209f564a969b35a33
+    m_Address: R_Trash_Can_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fca7aa94a655e4c9ebcc0d04bc57df74
+    m_Address: R_Highway_Barrier_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5caa7b8b9fd644401be4468b9276c820
+    m_Address: R_Building_14A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbc2ab5b59e2341ee9c79fdba040fe3a
+    m_Address: R_Car_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 078487999fc74c54bba0cd42d13b90b9
+    m_Address: R_Pavement_1S_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbc132b0bdefe4a72ab46ef679d4fd7b
+    m_Address: R_Parking_Meter_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1d384735a181499c88ee59af497bd32
+    m_Address: R_Road_1N
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9532fa64cbb1b470390fdfb35ecb3f9f
+    m_Address: R_Barrel_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b033e0fab8344ff4b3f5c1e202a2946
+    m_Address: R_Impact_Barrel_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e48403157a54e47c5956d2daf45a4376
+    m_Address: R_Power_Box_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8d79b075f1fc42028152492021e86a2
+    m_Address: R_Building_10A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 488c9b17136534b97a0599bcf2a82af1
+    m_Address: R_Safety_Net_3C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09aa961c51a0b436ca262716cfaedfb6
+    m_Address: R_Barrel_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e726d1e37083b496c8963fdebb9448f5
+    m_Address: R_Cable_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 477930da1afdd4efb8bab9247f271315
+    m_Address: R_Helipad_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6c46a04d0be64c4290efed1bb34a6f8
+    m_Address: R_Building_5D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 150ea447e20bb4e4f90ec8942637004a
+    m_Address: R_Car_14C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b95a43b42201c49529109b1f8dc1d949
+    m_Address: R_Metal_Fence_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f86c399fe98794401a9d6370de140280
+    m_Address: R_Building_9B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88ff42cd36acb44348057a162cef14ef
+    m_Address: R_Streetsign_2E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35100d5b40a3c4166bc76ca46ecb7091
+    m_Address: R_Building_15A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fd56d85592744cfaa18f7b9a599597a
+    m_Address: R_Barrel_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fdc08e25370c4aa091478a4a02d9470
+    m_Address: R_Pavement_1E_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54efb927616474eb7af1c3ee324bf945
+    m_Address: R_Building_16A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85967fd78be604f9f9e31fe6d1ea1317
+    m_Address: R_Umbrella_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46842d5c1fefd4351a7b0d8c4b3f0977
+    m_Address: R_Antenna_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00ac70d54ecc1476092b7e2bc01f43bf
+    m_Address: R_Safety_Net_1D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 712894494089b4d5baf30e68eec4d34d
+    m_Address: R_Toll_Booth_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 659e621d45df64e7aa5f17c55dea0c5b
+    m_Address: R_News_Helicopter_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56f3b64d5a28847738588e2572674779
+    m_Address: R_Road_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53372d423bf8547b0b51902cd3dc2ec9
+    m_Address: R_Road_1Y
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39fef9ecc89204411b3318994c931768
+    m_Address: R_Car_17B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 040309460cca94996999c72554ab2bf3
+    m_Address: R_Streetsign_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efecbe930510f412e846f1129b20643a
+    m_Address: R_Building_12A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f69c2d89bbf0048c080c20c0414d854e
+    m_Address: R_Car_6F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fefd9bbb2fec54add8604bb92edd3e6c
+    m_Address: R_Building_17D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d07c02f8e1077624bb66a944dfc13e97
+    m_Address: R_Billboard_5A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45bceb7da93ae4b8691598e4f3318649
+    m_Address: R_Building_16B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 189e5070a3c034e6c8eb2a4ad6db3f20
+    m_Address: R_Skyscraper_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8343157a891434dc3a2a70df31b1d4ff
+    m_Address: R_Car_7D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1cc897be91074f9aa510fe4da70c122
+    m_Address: R_Power_Box_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bda93cab91274747b4f8a50bf8ea8f4
+    m_Address: R_Billboard_3D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edbdfba47fdc541288b3c0cb03ad20a9
+    m_Address: R_Umbrella_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12df8a40b7ca34714aae8677508f0238
+    m_Address: R_Plant_Pot_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fec3029f457f84b1399b050a4d1a5258
+    m_Address: R_Skyscraper_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20726cfd7dc004a0e89320357acec976
+    m_Address: R_Streetlight_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 643e24b8115eb4096afc6fc54bdf3223
+    m_Address: R_Billboard_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9801c9c4725f442209bf47595f9c8ebd
+    m_Address: R_Building_9A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41fa38dc8b10f4209a592cbe51433ee1
+    m_Address: R_Highway_Barrier_1H
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 805a5c3902e454f7d89095754e51a8e0
+    m_Address: R_Building_6A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9d0d6ee09f6b4a9790d639ac9e30416
+    m_Address: R_Pavement_1I_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ffc03d3a2ed430a8066aa5522abd69
+    m_Address: R_Metal_Pole_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 103f863989ab74c12bbf017c3ac05452
+    m_Address: R_Road_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea867299582ca493f8c210e3c5591cac
+    m_Address: R_Pavement_1D_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51877e18a66814e84bd0983a7e77f5d7
+    m_Address: R_Building_14C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df87203e0244e43ad9bdae23d7833a41
+    m_Address: R_Concrete_Pole_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f95053cdbc3ef4fd98aa6843ca4bab8c
+    m_Address: R_Streetlight_2E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddc623616b0174133bbac218a1548004
+    m_Address: R_Metal_Fence_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b3112c32a47540dfa25329ba4712dac
+    m_Address: R_Concrete_Barrier_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7973f1ca05b4d423baa357157adf099d
+    m_Address: R_Pipe_Support_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 285ebaca55fc04905846995514e0077b
+    m_Address: R_Pipe_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffa48a09460a641a7a96876477aedb16
+    m_Address: R_Manhole_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20d59580b1ee54705b94da8130b5f119
+    m_Address: R_Tree_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b44781d7837cd430994c8c96379eb6d8
+    m_Address: R_Pavement_1A_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0647aee68e73649f49f483e6ddd0e5f0
+    m_Address: R_Pavement_1C_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d63779d6ecafb4bd4891a1b98faf9e61
+    m_Address: R_Flower_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d509fe8a2d3af4ee8849571b653fd594
+    m_Address: R_Pipe_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1da4ed14875440f5b454890789e5b90
+    m_Address: R_Pavement_1B_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 956ea0135a4c34344b2c22111169ded3
+    m_Address: R_Antenna_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14672e03744a24a8b9d24ddc3ed45523
+    m_Address: R_Bush_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10bc9b0a795c04d869419be8f3adf59f
+    m_Address: R_Building_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d3f5a5aaa96045caaac700db2531482
+    m_Address: R_Umbrella_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 584a66a6bcd7b42f8804cb376f1ee259
+    m_Address: R_Tree_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ebc28b4840f44469a5e297b2186fb47
+    m_Address: R_Tree_1E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b787c0ccab8d84a3aa6a7347221c650f
+    m_Address: R_Pipe_2F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 887361c2b425f4c3588383d43423ad16
+    m_Address: R_Concrete_Fence_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92fda9cc0407c4b06b0ed3086d6fbbd5
+    m_Address: R_Tree_1I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92da6bae969af4ad2a8c09dce781b3bc
+    m_Address: R_Building_11A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc0436e4dee484c0b9bdd75d23ca4633
+    m_Address: R_Air_Vent_3A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 059a8d1314dd64e60a6c10066a49a25f
+    m_Address: R_Highway_Streetsign_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: effd95495518a437092c6d70634f74f9
+    m_Address: R_Tree_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11bf014b6184035428b0e7d57f362c67
+    m_Address: R_Building_19C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eae3b647d762440f99ce64e0d0934208
+    m_Address: R_Pipe_3F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb2964cb645a641b081a373f855e482c
+    m_Address: R_Antenna_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 051e55192d4aa49369d11585fd8c2d22
+    m_Address: R_Skylight_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61f1fc458442a478d97deb68df6648ed
+    m_Address: R_Pipe_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd00a46c44c694f8e85302fd6a5099a5
+    m_Address: R_Car_10C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e85c43eb88a8d4ad9a1f3e0b2cb0f8c0
+    m_Address: R_Building_12D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95498ef6f42f54d378110b08d6d591f1
+    m_Address: R_Tree_2H
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c87beeebe6af441e4a6f2b1e6431278e
+    m_Address: R_Pavement_1J_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fee5d4456dfe4e749193469db8a9a70
+    m_Address: R_Grass_Patch_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f42227878907d4efaac33b6eae88746f
+    m_Address: R_Bench_2D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95160c6109ab8411a8a98fda5f61cfcb
+    m_Address: R_Industrial_Ventilation_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6747eb609feb4a8da3f7419d25feeb2
+    m_Address: R_Pipe_2G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d12663e40941451a869ee2eff9a7755
+    m_Address: R_Building_3B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f16fea105d0b64caa833aafd366059eb
+    m_Address: R_Car_16A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c97c86e2771244c129fb170d733aae02
+    m_Address: R_Chair_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f788b3c2376d24434a27f7ece322df80
+    m_Address: R_Mailbox_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 370ef1074d6ce4e6b9f4f120948555ed
+    m_Address: R_Table_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a77a63863abd2465e9bc203b5fefab63
+    m_Address: R_Highway_Barrier_1F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96560b213a8af4b7590aa64636347e87
+    m_Address: R_Tree_1F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a12acca482f5d43c8a4ce2117d5d1e3b
+    m_Address: R_Tree_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c22ff77bc1ba144e4b52b9be86842327
+    m_Address: R_Barrel_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ba7943b44c3842b093c37524faa80f7
+    m_Address: R_Pavement_1B_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92132671922bc42a282de92458409810
+    m_Address: R_Metal_Pole_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5436d524bddad4debaf7f5411bfa2ec0
+    m_Address: R_Highway_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66ea89aaf8df44a42a437bf309325de4
+    m_Address: R_Building_19B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 110b6b6716327464fae8a3d73ac29612
+    m_Address: R_Rock_Cluster_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68c27e6920c704b7da2d59fd63a98f20
+    m_Address: R_Streetsign_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57b476293586a4a9789db1d5b3ba75ed
+    m_Address: R_Hydrant_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba78b08f3c1c441e7948d620d565b0eb
+    m_Address: R_Building_13A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d82f2c4d93db4cb78203f5cfe343312
+    m_Address: R_Metal_Fence_2B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e721d1e74770449e68fcbcfa61602772
+    m_Address: R_Car_11A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc405efb21d6146c5b1d12bf6086cdce
+    m_Address: R_Road_1S
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a82ac86353d04a3ea21c7d37d353c27
+    m_Address: R_Pipe_Support_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96d7f1df6276641dfb8581fdafbab4f3
+    m_Address: R_Road_1L
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b98e63a177794490f957bc8e462b3d35
+    m_Address: R_Table_1C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e73b2d2ebba26487b9fa7f2f98ff7b20
+    m_Address: R_Highway_1A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb38a5032fa74d668bbbed9cd19ca5b
+    m_Address: R_Pavement_1B_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ebb983310caa46b4b16980b6581e90e
+    m_Address: R_Streetsign_2C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faa447fd6caa84a839db71550f2459de
+    m_Address: R_Streetsign_1B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3951cbb8c715446af8f6586db4303134
+    m_Address: R_Building_5B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71900efe72ca0407f8d56a6edc03d0d1
+    m_Address: R_Billboard_2A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a794ee2201d6c45ccb473ec042a025f5
+    m_Address: R_Pavement_1M_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6428fba9a83d049fca0a3d98358c78fd
+    m_Address: R_Road_1P
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Resources
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7a5a4e294f7cc0b418e0fed876aef0dc, type: 2}
   m_SchemaSet:

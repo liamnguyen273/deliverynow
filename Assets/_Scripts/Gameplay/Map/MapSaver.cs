@@ -9,6 +9,7 @@ namespace DeliveryNow
 {
     public class MapSaver : ObjectSerializer
     {
+#if UNITY_EDITOR
         [SerializeField] SerializablePlayer player;
         [SerializeField] SerializableSpline path;
 
@@ -40,5 +41,7 @@ namespace DeliveryNow
             SaveJsonToFile(finalData);
             AssetDatabase.Refresh();
         }
+
+#endif
     }
 }

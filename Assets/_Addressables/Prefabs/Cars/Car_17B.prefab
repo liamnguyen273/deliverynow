@@ -5207,9 +5207,10 @@ GameObject:
   - component: {fileID: 1337377803957980987}
   - component: {fileID: 9095016497823670031}
   - component: {fileID: -7153055713213625002}
+  - component: {fileID: -879954731960508612}
   m_Layer: 7
   m_Name: Car_17B
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5343,5 +5344,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51f8a32cca1ae2b4daf39b58ad5ad7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-879954731960508612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013651584406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075399833aa9c944eb597b76281fab00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
