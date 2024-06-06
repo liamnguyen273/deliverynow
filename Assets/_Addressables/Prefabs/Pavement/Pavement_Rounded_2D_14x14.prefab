@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4728230349584486}
   - component: {fileID: 33602592913085202}
   - component: {fileID: 23114206124470952}
-  - component: {fileID: 64152726639982108}
   - component: {fileID: 4354445677574895870}
   m_Layer: 0
   m_Name: Pavement_Rounded_2D_14x14
@@ -85,28 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64152726639982108
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623444943290628}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: f0ec250b61fe64c0c8601d9c9824cc7f, type: 3}
 --- !u!114 &4354445677574895870
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4614983141644134}
   - component: {fileID: 33051122564570068}
   - component: {fileID: 23867098290808086}
-  - component: {fileID: 65975870506788248}
   - component: {fileID: -5233307636371120135}
   m_Layer: 0
   m_Name: Pavement_2E_4X4
@@ -85,27 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65975870506788248
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297808338079716}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.9999995, y: 0.29999998, z: 3.9999995}
-  m_Center: {x: 0, y: 0.14999999, z: 0}
 --- !u!114 &-5233307636371120135
 MonoBehaviour:
   m_ObjectHideFlags: 0

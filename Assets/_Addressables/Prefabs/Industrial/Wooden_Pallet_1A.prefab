@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 33000011639375736}
   - component: {fileID: 23000012010867146}
   - component: {fileID: 65000012102217596}
-  - component: {fileID: 54000011924344146}
   - component: {fileID: -1960281057565364057}
   m_Layer: 0
   m_Name: Wooden_Pallet_1A
@@ -107,33 +106,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.977531, y: 0.19999999, z: 2.008962}
   m_Center: {x: -0.0070548654, y: 0.099999994, z: 0.0019987822}
---- !u!54 &54000011924344146
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010344947430}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &-1960281057565364057
 MonoBehaviour:
   m_ObjectHideFlags: 0

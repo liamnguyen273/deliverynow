@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4306021262571538}
   - component: {fileID: 33319336825346012}
   - component: {fileID: 23965316621371772}
-  - component: {fileID: 64652952814354068}
   - component: {fileID: -276734516788499130}
   m_Layer: 0
   m_Name: Modern_Arch_1A
@@ -85,28 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64652952814354068
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290970090414030}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 61538c40fc802174faa295bd85725b3a, type: 3}
 --- !u!114 &-276734516788499130
 MonoBehaviour:
   m_ObjectHideFlags: 0

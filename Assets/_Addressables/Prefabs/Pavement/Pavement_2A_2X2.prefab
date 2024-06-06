@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4433563473729744}
   - component: {fileID: 33991359093010326}
   - component: {fileID: 23244975847941286}
-  - component: {fileID: 65344510672935442}
   - component: {fileID: -7262785858280535877}
   m_Layer: 0
   m_Name: Pavement_2A_2X2
@@ -85,27 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65344510672935442
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071801725776800}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.9999998, y: 0.29999998, z: 1.9999998}
-  m_Center: {x: 0, y: 0.14999999, z: 0}
 --- !u!114 &-7262785858280535877
 MonoBehaviour:
   m_ObjectHideFlags: 0

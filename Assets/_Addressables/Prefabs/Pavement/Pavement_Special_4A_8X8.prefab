@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4338290319940564}
   - component: {fileID: 33930143913534704}
   - component: {fileID: 23710115270901020}
-  - component: {fileID: 64996303561009024}
   - component: {fileID: -827657510279650164}
   m_Layer: 0
   m_Name: Pavement_Special_4A_8X8
@@ -85,28 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64996303561009024
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333403660115120}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 02ee7ba09e201444cafbeed786477ce3, type: 3}
 --- !u!114 &-827657510279650164
 MonoBehaviour:
   m_ObjectHideFlags: 0
