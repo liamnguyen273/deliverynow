@@ -25,7 +25,7 @@ namespace DeliveryNow
 
         void UpdateUI(int level)
         {
-            text.SetText($"Level {level}");
+            text.SetText($"Day {level}");
         }
     }
 }

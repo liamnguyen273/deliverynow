@@ -39,8 +39,7 @@ namespace Owlet.UI
 
         private void Start()
         {
-            if(CurrencyManager.instance.init)
-                txtAmount.text = CurrencyManager.instance.GetResource(currencyType.currencyName).ToString();
+            txtAmount.text = CurrencyManager.instance.GetResource(currencyType.currencyName).ToString();
         }
 
         void SetInitialText()

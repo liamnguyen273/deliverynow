@@ -7,7 +7,7 @@ namespace Owlet
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         public static T instance;
-        public bool init = true;
+        protected bool init = true;
         [SerializeField] bool persist = false;
         private void Awake()
         {

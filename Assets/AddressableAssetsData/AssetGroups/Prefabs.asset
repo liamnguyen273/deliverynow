@@ -1746,7 +1746,7 @@ MonoBehaviour:
     - Prefabs
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eb08c00a55baad2469b7fece3701cc27
-    m_Address: Pavement_Special_4B_8X8 (4)
+    m_Address: Pavement_Special_4B_8X8
     m_ReadOnly: 0
     m_SerializedLabels:
     - Prefabs

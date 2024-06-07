@@ -116,7 +116,7 @@ namespace Owlet.Systems.SaveLoad
             onDataLoaded?.Invoke();
         }
 
-        /*private void OnApplicationPause(bool pauseStatus)
+        private void OnApplicationPause(bool pauseStatus)
         {
             if (pauseStatus) Save();
         }
@@ -124,7 +124,7 @@ namespace Owlet.Systems.SaveLoad
         private void OnApplicationQuit()
         {
             Save();
-        }*/
+        }
 
         ISaveable FindSaveObject(string id)
         {

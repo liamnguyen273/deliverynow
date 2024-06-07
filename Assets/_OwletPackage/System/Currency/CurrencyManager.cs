@@ -44,6 +44,7 @@ namespace Owlet.Systems.Currency
 
         public int GetResource(string currencyID)
         {
+            if (data == null || data.currency == null) return 0;
             if (!data.currency.ContainsKey(currencyID)) return 0;
             return data.currency[currencyID];
         }

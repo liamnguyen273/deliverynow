@@ -1,5 +1,6 @@
 using DeliveryNow.Gameplay;
 using Owlet;
+using Owlet.Systems.SaveLoad;
 using Owlet.UI;
 using Owlet.UI.Popups;
 using System.Collections;
@@ -16,14 +17,15 @@ namespace DeliveryNow
         {
             PlayerController.onPlayerDataLoaded += SetPlayer;
             Application.targetFrameRate = 60;
+            SaveManager.onDataLoaded += StartLevel;
+
             base.Init();
         }
 
-        private void Start()
+        private void OnDestroy()
         {
-            StartLevel();
+            SaveManager.onDataLoaded -= StartLevel;
         }
-
         void SetPlayer(PlayerController playerController)
         {
             this.playerController = playerController;

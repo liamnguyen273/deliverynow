@@ -23,7 +23,7 @@ namespace DeliveryNow
         public static Action onMapLoaded;
         public static Action onMapStartLoading;
 
-
+        const int MAX_MAP_AVAILABLE = 10;
 
         SerializablePlayer player;
         GameObject baseMap;
@@ -33,6 +33,11 @@ namespace DeliveryNow
 
         public async void LoadLevel(int level)
         {
+            if(level > MAX_MAP_AVAILABLE)
+            {
+                level %= MAX_MAP_AVAILABLE;
+            }
+
             float startLoadTime = Time.time;
             onMapStartLoading?.Invoke();
             CleanUpLevel();

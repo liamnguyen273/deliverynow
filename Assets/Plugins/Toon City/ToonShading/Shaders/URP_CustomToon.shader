@@ -876,7 +876,7 @@ Shader "Toon/CustomToon"
 
 	
 	}
-	CustomEditor "UnityEditor.ShaderGraph.PBRMasterGUI"
+	CustomEditor "UnityEditor.ShaderGraph.GenericShaderGraphMaterialGUI"
 	Fallback "Hidden/InternalErrorShader"
 	
 }
