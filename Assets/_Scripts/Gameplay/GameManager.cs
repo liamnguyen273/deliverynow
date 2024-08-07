@@ -3,6 +3,7 @@ using Owlet;
 using Owlet.Systems.SaveLoad;
 using Owlet.UI;
 using Owlet.UI.Popups;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,7 @@ namespace DeliveryNow
 {
     public class GameManager : Singleton<GameManager>
     {
-
+        public event EventHandler OnGamePaused;
         PlayerController playerController;
         protected override void Init()
         {
@@ -59,6 +60,11 @@ namespace DeliveryNow
         public async void CompleteLevel()
         {
             await PopupManager.instance.OpenUI<Popup>(Keys.Popups.LevelComplete, 2);
+        }
+
+        public void PauseGame(){
+            Time.timeScale = 0f;
+            OnGamePaused?.Invoke(this,EventArgs.Empty);
         }
     }
 }

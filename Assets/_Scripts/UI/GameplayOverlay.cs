@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,9 +18,9 @@ namespace DeliveryNow.UI
         }
 
 
-        void OpenSetting()
+        private void OpenSetting()
         {
-
+            GameManager.instance.PauseGame();
         }
 
         void Retry()
