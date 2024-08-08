@@ -13,6 +13,11 @@ namespace DeliveryNow
     public class GameManager : Singleton<GameManager>
     {
         public event EventHandler OnGamePaused;
+        private bool _isGamePaused = false;
+        public bool IsGamePaused {
+            get{return _isGamePaused;}
+            set{_isGamePaused = this;}
+        }
         PlayerController playerController;
         protected override void Init()
         {
@@ -45,7 +50,7 @@ namespace DeliveryNow
             Debug.Log("Start Next Level");
 
         }
-
+        // Issue: The game doesn't restart the player's achieved coin during the fail level.
         public void RestartLevel()
         {
             StartLevel();
@@ -63,8 +68,13 @@ namespace DeliveryNow
         }
 
         public void PauseGame(){
-            Time.timeScale = 0f;
             OnGamePaused?.Invoke(this,EventArgs.Empty);
+            Time.timeScale = 0f;
+        }
+
+        public void UnpauseGame(Action hidePauseUI){
+            Time.timeScale = 1f;
+            hidePauseUI();
         }
     }
 }

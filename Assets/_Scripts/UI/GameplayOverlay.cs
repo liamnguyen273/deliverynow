@@ -21,6 +21,7 @@ namespace DeliveryNow.UI
         private void OpenSetting()
         {
             GameManager.instance.PauseGame();
+            
         }
 
         void Retry()
