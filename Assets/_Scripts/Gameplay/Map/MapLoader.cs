@@ -18,6 +18,7 @@ namespace DeliveryNow
         static GameObject baseMapRef;
         static SerializablePlayer playerRef;
         static SerializableSpline pathRef;
+        static SerializableNPC npcRef;
 
         public static Action<float> onMapLoadProgressUpdated;
         public static Action onMapLoaded;
@@ -28,6 +29,7 @@ namespace DeliveryNow
         SerializablePlayer player;
         GameObject baseMap;
         SerializableSpline path;
+        SerializableNPC npc;
 
         const float MIN_LOAD_TIME = 1f;
 
@@ -59,13 +61,18 @@ namespace DeliveryNow
 
             player = LeanPool.Spawn(playerRef, transform);
             path = LeanPool.Spawn(pathRef, transform);
+            npc = LeanPool.Spawn(npcRef,transform);
             
             player.GetComponent<SplineAnimate>().Container = path.GetComponent<SplineContainer>();
 
             path.Load(mapData.path);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+            
             player.Load(mapData.player);
-            onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);  
+            onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+
+            npc.Load(mapData.npc);
+            onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
 
             float deltaTime = Time.time - startLoadTime;
             while(deltaTime < MIN_LOAD_TIME)
@@ -91,6 +98,7 @@ namespace DeliveryNow
             LeanPool.Despawn(player);
             LeanPool.Despawn(path);
             LeanPool.Despawn(baseMap);
+            LeanPool.Despawn(npc);
         }
 
         async UniTask LoadAssets()
@@ -98,6 +106,7 @@ namespace DeliveryNow
             if (baseMapRef == null) baseMapRef = await AddressableLoader.Load<GameObject>(Keys.Addressables.BaseMap);
             if (playerRef == null) playerRef = await AddressableLoader.Load<SerializablePlayer>(Keys.Addressables.Player);
             if (pathRef == null) pathRef = await AddressableLoader.Load<SerializableSpline>(Keys.Addressables.Path);
+            if (npcRef == null) npcRef = await AddressableLoader.Load<SerializableNPC>(Keys.Addressables.NPC);
         }
 
 

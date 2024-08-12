@@ -14,7 +14,7 @@ namespace DeliveryNow
         }
         public static Scene targetScene;
         public static void Load(Scene targetSceneName){
-            Loader.targetScene = targetSceneName;
+            targetScene = targetSceneName;
             SceneManager.LoadScene(targetScene.ToString());
         }
     }

@@ -36,6 +36,7 @@ namespace DeliveryNow
                 public static readonly string Coin = "coin";
                 public static readonly string Player = "player";
                 public static readonly string Spline = "spline";
+                public static readonly string NPC = "npc";
             }
 
             public static class Address
@@ -49,6 +50,7 @@ namespace DeliveryNow
             public static readonly string BaseMap = nameof(BaseMap);
             public static readonly string Player = nameof(Player);
             public static readonly string Path = nameof(Path);
+            public static readonly string NPC = nameof(NPC);
         }
 
         public static class Popups

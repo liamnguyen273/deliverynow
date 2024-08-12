@@ -12,12 +12,14 @@ namespace DeliveryNow
 {
     public class GameManager : Singleton<GameManager>
     {
+
         public event EventHandler OnGamePaused;
         private bool _isGamePaused = false;
         public bool IsGamePaused {
             get{return _isGamePaused;}
             set{_isGamePaused = this;}
         }
+
         PlayerController playerController;
         protected override void Init()
         {
@@ -27,7 +29,6 @@ namespace DeliveryNow
 
             base.Init();
         }
-
         private void OnDestroy()
         {
             SaveManager.onDataLoaded -= StartLevel;

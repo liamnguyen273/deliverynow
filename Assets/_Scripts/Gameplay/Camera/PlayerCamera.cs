@@ -8,7 +8,6 @@ namespace DeliveryNow
 {
     public class PlayerCamera : MonoBehaviour
     {
-        //Suggestion: Use SerializedField for virtualCamera
         CinemachineVirtualCamera virtualCamera;
 
 

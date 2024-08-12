@@ -16,6 +16,9 @@ public class DailyUI : MonoBehaviour
     }
     private void Start(){
         MainMenuUI.Instance.OnButtonPressed += MainMenuUI_OnButtonPressed;
+        closeButton.onClick.AddListener(()=>{
+            Hide();
+        });
         Hide();
     }
 

@@ -19,6 +19,7 @@ namespace DeliveryNow.Gameplay
         [SerializeField] SplineAnimate splineAnimate;
         [SerializeField] PlayerHitbox playerHitbox;
         public Transform body;
+        private Vector3 position;
 
         public static Action<PlayerController> onPlayerDataLoaded;
         public static Action<float> onProgressUpdate;
@@ -52,6 +53,9 @@ namespace DeliveryNow.Gameplay
 
             splineAnimate.Updated += CheckFinishLineReached;
             PlayerHitbox.onCarHit += EndControl;
+
+            position = transform.position;
+            Debug.Log(position);
 
             onProgressUpdate?.Invoke(0f);
             onPlayerDataLoaded?.Invoke(this);
@@ -169,6 +173,14 @@ namespace DeliveryNow.Gameplay
             float prevProgress = splineAnimate.NormalizedTime;
             splineAnimate.MaxSpeed = newSpeed;
             splineAnimate.NormalizedTime = prevProgress;
+        }
+
+        public UnityEngine.Vector3 GetPosition(){
+            return position;
+        }
+
+        private void SetPosition(UnityEngine.Vector3 position){
+            this.position = position;
         }
         #endregion
     }

@@ -12,6 +12,7 @@ namespace DeliveryNow
 #if UNITY_EDITOR
         [SerializeField] SerializablePlayer player;
         [SerializeField] SerializableSpline path;
+        [SerializeField] SerializableNPC npc;
 
         protected override void Serialize()
         {
@@ -33,6 +34,7 @@ namespace DeliveryNow
 
             mapData.player = player.Save();
             mapData.path = path.Save();
+            mapData.npc = npc.Save();
 
             string finalData = JsonConvert.SerializeObject(mapData, new JsonSerializerSettings
             {
