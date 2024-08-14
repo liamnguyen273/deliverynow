@@ -3353,17 +3353,17 @@ MonoBehaviour:
     m_SerializedLabels:
     - Prefabs
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 754e497dcdd132149a41f2cdca839632
-    m_Address: NPC
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Prefabs
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 49ccb4f25c93e8645a5624e83c7be04c
     m_Address: EndPoint
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d53c698ea67eed9429e3a16538c4a0a2
+    m_Address: NPC
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7a5a4e294f7cc0b418e0fed876aef0dc, type: 2}

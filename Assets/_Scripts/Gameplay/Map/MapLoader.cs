@@ -30,6 +30,7 @@ namespace DeliveryNow
         GameObject baseMap;
         SerializableSpline path;
         SerializableNPC npc;
+        
 
         const float MIN_LOAD_TIME = 1f;
 
@@ -73,6 +74,8 @@ namespace DeliveryNow
 
             npc.Load(mapData.npc);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+            NPC.Instance.SetPlayer(Player.Instance);
+
 
             float deltaTime = Time.time - startLoadTime;
             while(deltaTime < MIN_LOAD_TIME)

@@ -55,7 +55,7 @@ namespace DeliveryNow.Gameplay
             PlayerHitbox.onCarHit += EndControl;
 
             position = transform.position;
-            Debug.Log(position);
+            //Debug.Log(position);
 
             onProgressUpdate?.Invoke(0f);
             onPlayerDataLoaded?.Invoke(this);
