@@ -1,4 +1,5 @@
 using Owlet.StateMachines;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,12 @@ namespace DeliveryNow.Gameplay
         private void Awake()
         {
             PlayerController.onPlayerDataLoaded += Inititalize;
+            NPC.OnPlayerReached += NPC_onPlayerReached;
+        }
+
+        private void NPC_onPlayerReached()
+        {
+            SetState(new PlayerPrepare(playerController));
         }
 
         private void OnDestroy()
@@ -25,7 +32,7 @@ namespace DeliveryNow.Gameplay
         void Inititalize(PlayerController playerController)
         {
             this.playerController = playerController;
-            SetState(new PlayerPrepare(playerController));
+            SetState(new PlayerPickup(playerController));
         }
 
         public void SetState(State newState)

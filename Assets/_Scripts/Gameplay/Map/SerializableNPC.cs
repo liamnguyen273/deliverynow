@@ -16,6 +16,7 @@ namespace DeliveryNow
         public override void Load(string json)
         {
             base.Load(json);
+            GetComponent<NPC>().Initialize();
         }
     }
 }

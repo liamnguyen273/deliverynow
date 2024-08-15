@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using DeliveryNow.Gameplay;
 using Lean.Pool;
 using Newtonsoft.Json;
 using Owlet;
@@ -74,7 +75,7 @@ namespace DeliveryNow
 
             npc.Load(mapData.npc);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
-            NPC.Instance.SetPlayer(Player.Instance);
+            NPC.Instance.SetPlayer(PlayerController.GetPosition());
 
 
             float deltaTime = Time.time - startLoadTime;

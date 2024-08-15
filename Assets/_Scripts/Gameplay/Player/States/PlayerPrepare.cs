@@ -15,6 +15,7 @@ namespace DeliveryNow.Gameplay
 
         public override IEnumerator OnStateEnter()
         {
+            Debug.Log("Player is preparing");
             OpenPopup();
             yield return base.OnStateEnter();
         }
@@ -27,6 +28,7 @@ namespace DeliveryNow.Gameplay
 
         public override IEnumerator OnStateExit()
         {
+            Debug.Log("Player is ready");
             PopupManager.instance.CloseUI(Keys.Popups.TapToStart);
             return base.OnStateExit();
         }

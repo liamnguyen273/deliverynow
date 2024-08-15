@@ -11,10 +11,12 @@ namespace DeliveryNow
         }
         public override IEnumerator OnStateEnter()
         {
+            Debug.Log("The Player is picking up NPC");
             yield return base.OnStateEnter();
         }
         public override IEnumerator OnStateExit()
         {
+            Debug.Log("The player has picked up the NPC");
             return base.OnStateExit();
         }
     }

@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Splines;
@@ -19,7 +20,7 @@ namespace DeliveryNow.Gameplay
         [SerializeField] SplineAnimate splineAnimate;
         [SerializeField] PlayerHitbox playerHitbox;
         public Transform body;
-        private Vector3 position;
+        private static UnityEngine.Vector3 _position;
 
         public static Action<PlayerController> onPlayerDataLoaded;
         public static Action<float> onProgressUpdate;
@@ -54,7 +55,7 @@ namespace DeliveryNow.Gameplay
             splineAnimate.Updated += CheckFinishLineReached;
             PlayerHitbox.onCarHit += EndControl;
 
-            position = transform.position;
+            _position = transform.position;
             //Debug.Log(position);
 
             onProgressUpdate?.Invoke(0f);
@@ -174,14 +175,13 @@ namespace DeliveryNow.Gameplay
             splineAnimate.MaxSpeed = newSpeed;
             splineAnimate.NormalizedTime = prevProgress;
         }
-
-        public UnityEngine.Vector3 GetPosition(){
-            return position;
-        }
-
-        private void SetPosition(UnityEngine.Vector3 position){
-            this.position = position;
-        }
         #endregion
+
+        public static Vector3 GetPosition(){
+            return _position;
+        }
+        private static void SetPosition(Vector3 playerPosition){
+            PlayerController._position = playerPosition;
+        }
     }
 }

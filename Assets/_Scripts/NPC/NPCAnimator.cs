@@ -9,18 +9,18 @@ namespace DeliveryNow
     {
         private enum State{
             IDLE,
-            WALKING,
-            WAVING
+            WALK,
+            WAVE
         }
-        [SerializeField] private NPC npc;
         private Animator animator;
         private void Awake(){
-            animator = gameObject.GetComponent<Animator>();
+            animator = GetComponent<Animator>();
+            SetState(State.WALK);
         }
 
         private void NPC_OnPlayerReached()
         {
-            SetState(State.WALKING);
+            SetState(State.WALK);
         }
 
         private void MapLoader_OnMapLoaded()
@@ -34,10 +34,10 @@ namespace DeliveryNow
                 case State.IDLE:
                     animator.SetTrigger("Idle");
                     break;
-                case State.WALKING:
+                case State.WALK:
                     animator.SetTrigger("Walk");
                     break;
-                case State.WAVING:
+                case State.WAVE:
                     animator.SetTrigger("Wave");
                     break;
             }
