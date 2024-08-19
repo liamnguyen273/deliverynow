@@ -17,12 +17,21 @@ namespace DeliveryNow.Gameplay
         {
             PlayerController.onPlayerDataLoaded += Inititalize;
             NPC.OnPlayerReached += NPC_onPlayerReached;
+            PlayerController.onFinishLineReached += PlayerController_OnFinishLineReached;
         }
 
+        private void PlayerController_OnFinishLineReached()
+        {
+            SetState(new PlayerDropOff(playerController));
+        }
 
         private void NPC_onPlayerReached()
         {
-            SetState(new PlayerPrepare(playerController));
+            if(!GameManager.IsGameComplete){
+                SetState(new PlayerPrepare(playerController));
+            }else{
+                GameManager.instance.CompleteLevel();
+            }
         }
 
         private void OnDestroy()

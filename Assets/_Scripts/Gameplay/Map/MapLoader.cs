@@ -20,6 +20,8 @@ namespace DeliveryNow
         static SerializablePlayer playerRef;
         static SerializableSpline pathRef;
         static SerializableNPC npcRef;
+        static SerializableSpline npcStartPathRef;
+        static SerializableSpline npcEndPathRef;
 
         public static Action<float> onMapLoadProgressUpdated;
         public static Action onMapLoaded;
@@ -31,6 +33,8 @@ namespace DeliveryNow
         GameObject baseMap;
         SerializableSpline path;
         SerializableNPC npc;
+        SerializableSpline npcStartPath;
+        public static SerializableSpline npcEndPath;
         
 
         const float MIN_LOAD_TIME = 1f;
@@ -64,18 +68,27 @@ namespace DeliveryNow
             player = LeanPool.Spawn(playerRef, transform);
             path = LeanPool.Spawn(pathRef, transform);
             npc = LeanPool.Spawn(npcRef,transform);
+            npcStartPath = LeanPool.Spawn(npcStartPathRef, transform);
+            npcEndPath = LeanPool.Spawn(npcEndPathRef, transform);
+
+            npcStartPath.Load(mapData.npcStartPath);
+            onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+            npcEndPath.Load(mapData.npcEndPath);
+            onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
             
             player.GetComponent<SplineAnimate>().Container = path.GetComponent<SplineContainer>();
+            npc.GetComponent<SplineAnimate>().Container = npcStartPath.GetComponent<SplineContainer>();
 
             path.Load(mapData.path);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+
             
             player.Load(mapData.player);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+            //Load NPC
             if(!GameManager.Restart){
                 npc.Load(mapData.npc);
                 onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
-                NPC.Instance.SetPlayer(PlayerController.GetPosition());
             }
 
             float deltaTime = Time.time - startLoadTime;
@@ -103,6 +116,8 @@ namespace DeliveryNow
             LeanPool.Despawn(path);
             LeanPool.Despawn(baseMap);
             LeanPool.Despawn(npc);
+            LeanPool.Despawn(npcStartPath);
+            LeanPool.Despawn(npcEndPath);
         }
 
         async UniTask LoadAssets()
@@ -110,6 +125,8 @@ namespace DeliveryNow
             if (baseMapRef == null) baseMapRef = await AddressableLoader.Load<GameObject>(Keys.Addressables.BaseMap);
             if (playerRef == null) playerRef = await AddressableLoader.Load<SerializablePlayer>(Keys.Addressables.Player);
             if (pathRef == null) pathRef = await AddressableLoader.Load<SerializableSpline>(Keys.Addressables.Path);
+            if (npcStartPathRef == null) npcStartPathRef = await AddressableLoader.Load<SerializableSpline>(Keys.Addressables.Path);
+            if (npcEndPathRef == null) npcEndPathRef = await AddressableLoader.Load<SerializableSpline>(Keys.Addressables.Path);
             if (npcRef == null) npcRef = await AddressableLoader.Load<SerializableNPC>(Keys.Addressables.NPC);
         }
 

@@ -14,6 +14,7 @@ namespace DeliveryNow
         [SerializeField] SerializableSpline path;
         [SerializeField] SerializableNPC npc;
         [SerializeField] SerializableSpline npcStartPath;
+        [SerializeField] SerializableSpline npcEndPath;
 
         protected override void Serialize()
         {
@@ -37,6 +38,7 @@ namespace DeliveryNow
             mapData.path = path.Save();
             mapData.npc = npc.Save();
             mapData.npcStartPath = npcStartPath.Save();
+            mapData.npcEndPath = npcEndPath.Save();
 
             string finalData = JsonConvert.SerializeObject(mapData, new JsonSerializerSettings
             {

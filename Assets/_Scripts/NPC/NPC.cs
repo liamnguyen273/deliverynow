@@ -6,6 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using DeliveryNow.Gameplay;
 using UnityEngine.Splines;
+using Lean.Pool;
 
 public class NPC : MonoBehaviour
 {
@@ -14,22 +15,36 @@ public class NPC : MonoBehaviour
     public static Action OnPlayerReached;
     public static Action OnNPCDataLoaded;
     public static event EventHandler OnStateChanged;
-    private Vector3 playerPosition;
     private readonly float speed = 1f;
-    public void Initialize(){
-        Instance = this;
-        OnNPCDataLoaded?.Invoke();
-        splineAnimate.Restart(true);
+    private void Awake(){
+        splineAnimate.Updated += splineAnimate_Update;
+        PlayerController.onFinishLineReached += PlayerController_onFinishLineReached;
     }
-    private void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.CompareTag("Player")){
-            Debug.Log("NPC collided with " + collision.gameObject.name);
-            Destroy(gameObject);
+
+    private void PlayerController_onFinishLineReached()
+    {
+        gameObject.GetComponent<SplineAnimate>().Container = MapLoader.npcEndPath.GetComponent<SplineContainer>();
+        LeanPool.Spawn(gameObject);
+        splineAnimate.Play();
+    }
+
+    private void splineAnimate_Update(Vector3 vector, Quaternion quaternion)
+    {
+        if(splineAnimate.NormalizedTime == 1f){
+            gameObject.SetActive(false);
             OnPlayerReached?.Invoke();
         }
     }
-    public void SetPlayer(Vector3 playerPosition){
-        this.playerPosition = playerPosition;
+
+    public void Initialize(){
+        Instance = this;
+        OnNPCDataLoaded?.Invoke();
+        splineAnimate.AnimationMethod = SplineAnimate.Method.Speed;
+        splineAnimate.MaxSpeed = speed;
+        splineAnimate.Loop = SplineAnimate.LoopMode.Once;
+        splineAnimate.PlayOnAwake = true;
+        
     }
+
     
 }

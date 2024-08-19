@@ -24,6 +24,7 @@ namespace DeliveryNow.Gameplay
 
         public static Action<PlayerController> onPlayerDataLoaded;
         public static Action<float> onProgressUpdate;
+        public static Action onFinishLineReached;
 
         const float SPEED_DEFAULT = 15f;
         const float BODY_OFFSET = 2.1f;
@@ -101,7 +102,7 @@ namespace DeliveryNow.Gameplay
 
             if (splineAnimate.NormalizedTime == 1f)
             {
-                CompleteLevel();
+                onFinishLineReached?.Invoke();
             }
         }
 

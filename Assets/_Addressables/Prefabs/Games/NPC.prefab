@@ -1173,8 +1173,7 @@ GameObject:
   - component: {fileID: 3601293257111836220}
   - component: {fileID: 4678179073665100343}
   - component: {fileID: 4913939162253808007}
-  - component: {fileID: 3684162168531200443}
-  - component: {fileID: 755878888722554220}
+  - component: {fileID: 2128243333915535223}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -1222,54 +1221,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54334e80a40627b428c5407f8157bc0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &3684162168531200443
-BoxCollider:
+  splineAnimate: {fileID: 2128243333915535223}
+--- !u!114 &2128243333915535223
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5149536064099123930}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5324777, y: 0.81411767, z: 0.35786086}
-  m_Center: {x: 0.008449167, y: 0.7, z: 0.011265606}
---- !u!54 &755878888722554220
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5149536064099123930}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 0
-  m_ImplicitTensor: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a074d529cf945029ef7cf40540c9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 5957420541563859022, guid: 0654009e936406045873733eccbc1f16,
+    type: 3}
+  m_PlayOnAwake: 1
+  m_LoopMode: 1
+  m_Method: 0
+  m_Duration: 1
+  m_MaxSpeed: 0
+  m_EasingMode: 0
+  m_AlignmentMode: 1
+  m_ObjectForwardAxis: 2
+  m_ObjectUpAxis: 1
+  m_StartOffset: 0
 --- !u!1 &5183518855997512827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,7 +1368,7 @@ Transform:
   m_GameObject: {fileID: 5639279766988412291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.203, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

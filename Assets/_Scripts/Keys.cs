@@ -15,7 +15,6 @@ namespace DeliveryNow
                 public static readonly string Title = "__";
                 public static readonly string Data = "||";
                 public static readonly string Split = "..";
-
                 public static partial class Tags
                 {
                     public static readonly string Transform = "transform";
@@ -51,6 +50,7 @@ namespace DeliveryNow
             public static readonly string Player = nameof(Player);
             public static readonly string Path = nameof(Path);
             public static readonly string NPC = nameof(NPC);
+            public static readonly string NPC_StartPath = nameof(NPC_StartPath);
         }
 
         public static class Popups

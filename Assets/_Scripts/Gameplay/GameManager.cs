@@ -7,6 +7,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Splines;
 
 namespace DeliveryNow
 {
@@ -15,6 +16,8 @@ namespace DeliveryNow
 
         public event EventHandler OnGamePaused;
         public static event EventHandler OnGameRestart;
+        private static bool isGameComplete = false;
+        public static bool IsGameComplete{get{return isGameComplete;}}
         private static bool _restart = false;
         public static bool Restart{
             get {
@@ -36,9 +39,16 @@ namespace DeliveryNow
             PlayerController.onPlayerDataLoaded += SetPlayer;
             Application.targetFrameRate = 60;
             SaveManager.onDataLoaded += StartLevel;
+            PlayerController.onFinishLineReached += PlayerController_OnFinishLineReached;
 
             base.Init();
         }
+
+        private void PlayerController_OnFinishLineReached()
+        {
+            isGameComplete = true;
+        }
+
         private void OnDestroy()
         {
             SaveManager.onDataLoaded -= StartLevel;

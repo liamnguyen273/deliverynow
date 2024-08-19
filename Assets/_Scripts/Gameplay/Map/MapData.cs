@@ -11,6 +11,7 @@ namespace DeliveryNow
         public string path;
         public string npc;
         public string npcStartPath;
+        public string npcEndPath;
 
         public MapData()
         {
