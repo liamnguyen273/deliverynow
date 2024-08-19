@@ -10,6 +10,7 @@ namespace DeliveryNow
         public string player;
         public string path;
         public string npc;
+        public string npcStartPath;
 
         public MapData()
         {

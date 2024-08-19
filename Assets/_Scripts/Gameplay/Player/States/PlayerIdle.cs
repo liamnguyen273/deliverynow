@@ -10,5 +10,6 @@ namespace DeliveryNow
         public PlayerIdle(PlayerController playerController) : base(playerController)
         {
         }
+
     }
 }

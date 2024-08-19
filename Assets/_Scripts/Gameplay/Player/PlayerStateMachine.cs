@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DeliveryNow;
 
 namespace DeliveryNow.Gameplay
 {
@@ -18,6 +19,7 @@ namespace DeliveryNow.Gameplay
             NPC.OnPlayerReached += NPC_onPlayerReached;
         }
 
+
         private void NPC_onPlayerReached()
         {
             SetState(new PlayerPrepare(playerController));
@@ -32,7 +34,14 @@ namespace DeliveryNow.Gameplay
         void Inititalize(PlayerController playerController)
         {
             this.playerController = playerController;
-            SetState(new PlayerPickup(playerController));
+            switch(GameManager.Restart){
+                case true:
+                    SetState(new PlayerPrepare(playerController));
+                    break;
+                case false:
+                    SetState(new PlayerPickup(playerController));
+                    break;
+            }
         }
 
         public void SetState(State newState)

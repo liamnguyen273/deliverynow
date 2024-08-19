@@ -72,11 +72,11 @@ namespace DeliveryNow
             
             player.Load(mapData.player);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
-
-            npc.Load(mapData.npc);
-            onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
-            NPC.Instance.SetPlayer(PlayerController.GetPosition());
-
+            if(!GameManager.Restart){
+                npc.Load(mapData.npc);
+                onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
+                NPC.Instance.SetPlayer(PlayerController.GetPosition());
+            }
 
             float deltaTime = Time.time - startLoadTime;
             while(deltaTime < MIN_LOAD_TIME)

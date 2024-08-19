@@ -14,6 +14,16 @@ namespace DeliveryNow
     {
 
         public event EventHandler OnGamePaused;
+        public static event EventHandler OnGameRestart;
+        private static bool _restart = false;
+        public static bool Restart{
+            get {
+                return _restart;
+            }
+            private set{
+                _restart = value;
+            }
+        }
         private bool _isGamePaused = false;
         public bool IsGamePaused {
             get{return _isGamePaused;}
@@ -51,9 +61,9 @@ namespace DeliveryNow
             Debug.Log("Start Next Level");
 
         }
-        // Issue: The game doesn't restart the player's achieved coin during the fail level.
         public void RestartLevel()
         {
+            _restart = true;
             StartLevel();
             Debug.Log("Restart Level");
         }
