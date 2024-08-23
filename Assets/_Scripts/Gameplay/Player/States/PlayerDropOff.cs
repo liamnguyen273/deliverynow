@@ -16,7 +16,7 @@ namespace DeliveryNow
         }
         public override IEnumerator OnStateExit()
         {
-            Debug.Log("The player has dropping off the NPC");
+            Debug.Log("The player has dropped off the NPC");
             return base.OnStateExit();
         }
     }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Cinemachine;
+using DeliveryNow.Gameplay;
 using UnityEngine;
 
 namespace DeliveryNow
@@ -14,6 +15,12 @@ namespace DeliveryNow
             virtualCamera = GetComponent<CinemachineVirtualCamera>();
             NPC.OnNPCDataLoaded += NPC_OnNPCDataLoaded;
             NPC.OnPlayerReached += NPC_OnPlayerReached;
+            PlayerController.onFinishLineReached += PlayerController_OnFinishLineReached;
+        }
+
+        private void PlayerController_OnFinishLineReached()
+        {
+            virtualCamera.gameObject.SetActive(true);
         }
 
         private void NPC_OnPlayerReached()

@@ -103,6 +103,7 @@ namespace DeliveryNow.Gameplay
             if (splineAnimate.NormalizedTime == 1f)
             {
                 onFinishLineReached?.Invoke();
+                CompleteLevel();
             }
         }
 
@@ -111,7 +112,7 @@ namespace DeliveryNow.Gameplay
             //Debug.Log("Level Complete");
             EndControl();
             StopCar();
-            GameManager.instance.CompleteLevel();
+            //Removed the game manager complete level method call
         }
 
         public void ChangeLane()

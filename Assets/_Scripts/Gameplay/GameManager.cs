@@ -13,7 +13,6 @@ namespace DeliveryNow
 {
     public class GameManager : Singleton<GameManager>
     {
-
         public event EventHandler OnGamePaused;
         public static event EventHandler OnGameRestart;
         private static bool isGameComplete = false;
@@ -67,6 +66,8 @@ namespace DeliveryNow
         public void StartNextLevel()
         {
             PlayerDataManager.instance.IncreaseCurrentLevel();
+            isGameComplete = false;
+            _restart = false;
             StartLevel();
             Debug.Log("Start Next Level");
 

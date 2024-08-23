@@ -32,9 +32,11 @@ namespace DeliveryNow
         SerializablePlayer player;
         GameObject baseMap;
         SerializableSpline path;
-        SerializableNPC npc;
+        static SerializableNPC npc;
+        public static SerializableNPC NPC{get{return npc;}}
         SerializableSpline npcStartPath;
-        public static SerializableSpline npcEndPath;
+        static SerializableSpline npcEndPath;
+        public static SerializableSpline NPCEndPath{get{return npcEndPath;}}
         
 
         const float MIN_LOAD_TIME = 1f;
@@ -85,7 +87,6 @@ namespace DeliveryNow
             
             player.Load(mapData.player);
             onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
-            //Load NPC
             if(!GameManager.Restart){
                 npc.Load(mapData.npc);
                 onMapLoadProgressUpdated?.Invoke((++currentProgress) / totalProgress);
@@ -111,7 +112,6 @@ namespace DeliveryNow
             {
                 LeanPool.Despawn(objects[i].GameObject());
             }
-
             LeanPool.Despawn(player);
             LeanPool.Despawn(path);
             LeanPool.Despawn(baseMap);

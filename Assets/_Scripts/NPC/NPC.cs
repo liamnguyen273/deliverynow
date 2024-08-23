@@ -14,17 +14,24 @@ public class NPC : MonoBehaviour
     public static NPC Instance{get;set;}
     public static Action OnPlayerReached;
     public static Action OnNPCDataLoaded;
-    public static event EventHandler OnStateChanged;
+    public static Action OnNPCReachedEndPath;
     private readonly float speed = 1f;
     private void Awake(){
         splineAnimate.Updated += splineAnimate_Update;
-        PlayerController.onFinishLineReached += PlayerController_onFinishLineReached;
+        PlayerController.onFinishLineReached += PlayerController_OnFinishLineReached;
     }
 
-    private void PlayerController_onFinishLineReached()
+    private void OnDestroy()
     {
-        gameObject.GetComponent<SplineAnimate>().Container = MapLoader.npcEndPath.GetComponent<SplineContainer>();
-        LeanPool.Spawn(gameObject);
+    splineAnimate.Updated -= splineAnimate_Update;
+    PlayerController.onFinishLineReached -= PlayerController_OnFinishLineReached;
+    }
+
+    private void PlayerController_OnFinishLineReached()
+    {
+        gameObject.GetComponent<SplineAnimate>().Container = MapLoader.NPCEndPath.GetComponent<SplineContainer>();
+        gameObject.SetActive(true);
+        splineAnimate.Restart(true);
         splineAnimate.Play();
     }
 
@@ -32,19 +39,20 @@ public class NPC : MonoBehaviour
     {
         if(splineAnimate.NormalizedTime == 1f){
             gameObject.SetActive(false);
-            OnPlayerReached?.Invoke();
+            if(!GameManager.IsGameComplete){
+                OnPlayerReached?.Invoke();
+            }else{
+                OnNPCReachedEndPath?.Invoke();
+            }
         }
     }
-
     public void Initialize(){
         Instance = this;
         OnNPCDataLoaded?.Invoke();
         splineAnimate.AnimationMethod = SplineAnimate.Method.Speed;
         splineAnimate.MaxSpeed = speed;
         splineAnimate.Loop = SplineAnimate.LoopMode.Once;
-        splineAnimate.PlayOnAwake = true;
-        
+        splineAnimate.Restart(true);
+        splineAnimate.Play();
     }
-
-    
 }

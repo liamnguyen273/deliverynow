@@ -16,8 +16,15 @@ namespace DeliveryNow.Gameplay
         private void Awake()
         {
             PlayerController.onPlayerDataLoaded += Inititalize;
-            NPC.OnPlayerReached += NPC_onPlayerReached;
+            NPC.OnPlayerReached += NPC_OnPlayerReached;
             PlayerController.onFinishLineReached += PlayerController_OnFinishLineReached;
+            NPC.OnNPCReachedEndPath += NPC_OnNPCReachedEndPath;
+        }
+
+        private void NPC_OnNPCReachedEndPath()
+        {
+            GameManager.instance.CompleteLevel();
+            SetState(new PlayerIdle(playerController));
         }
 
         private void PlayerController_OnFinishLineReached()
@@ -25,12 +32,10 @@ namespace DeliveryNow.Gameplay
             SetState(new PlayerDropOff(playerController));
         }
 
-        private void NPC_onPlayerReached()
+        private void NPC_OnPlayerReached()
         {
             if(!GameManager.IsGameComplete){
                 SetState(new PlayerPrepare(playerController));
-            }else{
-                GameManager.instance.CompleteLevel();
             }
         }
 
