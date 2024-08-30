@@ -53972,6 +53972,11 @@ PrefabInstance:
       propertyPath: npc_StartPath
       value: 
       objectReference: {fileID: 5002836039807124814}
+    - target: {fileID: 4246172235115011036, guid: 1930408421c260c43a44b376c743530d,
+        type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6976987064520918532, guid: 1930408421c260c43a44b376c743530d,
         type: 3}
       propertyPath: m_LocalPosition.x

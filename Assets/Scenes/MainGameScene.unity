@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 30
     OrthographicSize: 10
-    NearClipPlane: 0.1
+    NearClipPlane: 1
     FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
@@ -1964,7 +1964,7 @@ PrefabInstance:
     - target: {fileID: 2664302706560289968, guid: 29e6239d8117480419c8f4d9869533c3,
         type: 3}
       propertyPath: near clip plane
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2664302706560289968, guid: 29e6239d8117480419c8f4d9869533c3,
         type: 3}
@@ -2511,7 +2511,7 @@ PrefabInstance:
     - target: {fileID: 7976631994491254953, guid: ef8862bfbaf059f47b1c706c585b4eab,
         type: 3}
       propertyPath: data.currentLevel
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

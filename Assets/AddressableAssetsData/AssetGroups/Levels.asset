@@ -23,12 +23,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Popups
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4e776982d2bf4ed45b70fc4d2626665c
-    m_Address: Level_2
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Popups
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e1e6eae913d452a4fbed5f5ba303cda6
     m_Address: Level_3
     m_ReadOnly: 0
@@ -73,6 +67,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4459c031daac3b1499a1d965683caca7
     m_Address: Level_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e776982d2bf4ed45b70fc4d2626665c
+    m_Address: Level_2
     m_ReadOnly: 0
     m_SerializedLabels:
     - Popups
