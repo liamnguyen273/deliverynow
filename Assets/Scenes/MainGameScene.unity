@@ -1744,8 +1744,8 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 30
     OrthographicSize: 10
-    NearClipPlane: 1
-    FarClipPlane: 500
+    NearClipPlane: 0.5
+    FarClipPlane: 250
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -1959,12 +1959,12 @@ PrefabInstance:
     - target: {fileID: 2664302706560289968, guid: 29e6239d8117480419c8f4d9869533c3,
         type: 3}
       propertyPath: far clip plane
-      value: 500
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 2664302706560289968, guid: 29e6239d8117480419c8f4d9869533c3,
         type: 3}
       propertyPath: near clip plane
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2664302706560289968, guid: 29e6239d8117480419c8f4d9869533c3,
         type: 3}
