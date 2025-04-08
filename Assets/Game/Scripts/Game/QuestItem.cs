@@ -14,6 +14,7 @@ public class QuestItem : MonoBehaviour
         // PickupLoaction.text = pickupLoaction;
         // DeliveryLocation.text = deliveryLocation;
         SetStar(quest.star);
+        Debug.Log(quest.status);
     }
 
     void SetStar(int value)

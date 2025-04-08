@@ -48,7 +48,7 @@ namespace Define
 
     public class Game
     {
-        public static int QUEST_COUNT = 9;
+        public static int QUEST_COUNT = 18;
         public static int BONUS = 100;
         public static int WATCH_ADS_BONUS = 150;
     }

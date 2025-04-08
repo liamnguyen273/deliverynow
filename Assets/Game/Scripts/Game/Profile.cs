@@ -18,17 +18,18 @@ public class QuestInfo
     public int star;
     public float time;
 }
+[System.Serializable]
 class DataProfile
 {
     public QuestInfo[] quest;
     public int lastUnlockedQuest = 1;
     public int coin = 0;
-    public int version = 2;
+    public int version = 4;
 }
 public class Profile : Singleton<Profile>
 {
     string KEY = "profile";
-    DataProfile data;
+    [SerializeField]DataProfile data;
     override protected void Awake()
     {
         base.Awake();
@@ -54,15 +55,15 @@ public class Profile : Singleton<Profile>
                 Save();
             }
         }
-#if USE_CHEAT
-        UnlockAllQuest();
-#else
+//#if USE_CHEAT
+//        UnlockAllQuest();
+//#else
         if (shouldUnlockFirstQuest)
         {
             QuestUnlocked(0);
             QuestUnlocked(1);
         }
-#endif
+//#endif
     }
     void NewProfile()
     {

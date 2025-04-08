@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f4cc11991c4c2408b412f2fb48819e, type: 3}
+  m_Name: AdConfig
+  m_EditorClassIdentifier: 
+  _android:
+    _banner: ca-app-pub-1443690986008985/9181706398
+    _intersitial: ca-app-pub-1443690986008985/4120951403
+    _reward: ca-app-pub-1443690986008985/1494788065
+  _ios:
+    _banner: ca-app-pub-1443690986008985/2769028985
+    _intersitial: ca-app-pub-1443690986008985/1432832368
+    _reward: ca-app-pub-1443690986008985/1356680866

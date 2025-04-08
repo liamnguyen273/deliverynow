@@ -6,6 +6,7 @@ using Doozy.Engine;
 using Doozy.Engine.UI;
 using Cinemachine;
 using Dreamteck.Splines;
+using ADS;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -35,6 +36,7 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         SetState(State.INIT);
+        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.BANNER));
     }
 
     // Update is called once per frame
@@ -139,11 +141,14 @@ public class GameManager : Singleton<GameManager>
     {
         ShouldCheckQuestTime = false;
         UIPopup.GetPopup(Define.Popup.MISSION_FAIL).Show();
+        Debug.Log("Failure");
+
     }
 
     void MissionComplete()
     {
         UIPopup.GetPopup(Define.Popup.MISSION_COMPLETE).Show();
+        Debug.Log("Complele");
     }
     public void StartPickUp()
     {

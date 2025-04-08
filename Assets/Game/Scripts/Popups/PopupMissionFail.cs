@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Doozy.Engine.UI;
+using ADS;
 
 public class PopupMissionFail : MonoBehaviour
 {
@@ -14,13 +15,7 @@ public class PopupMissionFail : MonoBehaviour
         InGame.Instance.PlayBackGroundMusic(true);
 
         FailCount++;
-        if (FailCount % 2 == 0)
-        {
-            IronSourceAds.Instance.ShowInterstitial("mission_fail", (result) =>
-            {
-
-            });
-        }
+        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.INTERSTITIAL));
     }
 
     // Update is called once per frame

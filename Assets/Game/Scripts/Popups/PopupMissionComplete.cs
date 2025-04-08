@@ -5,6 +5,7 @@ using Doozy.Engine.UI;
 using UnityEngine.UI;
 using DG.Tweening;
 using System;
+using ADS;
 public class PopupMissionComplete : MonoBehaviour
 {
     [SerializeField] UIButton btNext, btWatchAds;
@@ -26,29 +27,13 @@ public class PopupMissionComplete : MonoBehaviour
         btNext.OnClick.OnTrigger.Event.AddListener(OnNext);
         btWatchAds.OnClick.OnTrigger.Event.AddListener(onWatchAds);
 
-        if (IronSourceAds.Instance.RewardVideoAvailable)
-        {
-            btWatchAds.EnableButton();
-        }
-        else
-        {
-            btWatchAds.DisableButton();
-        }
 
         DG.Tweening.DOVirtual.DelayedCall(2, () =>
         {
             AddBonus(Define.Game.BONUS, QuestComplete);
         });
         InGame.Instance.PlayBackGroundMusic(true);
-        
-        CompleteCount++;
-        if (CompleteCount % 2 == 0)
-        {
-            IronSourceAds.Instance.ShowInterstitial("mission_complate", (result) =>
-            {
-
-            });
-        }
+        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.INTERSTITIAL));
     }
 
     // Update is called once per frame
@@ -66,16 +51,18 @@ public class PopupMissionComplete : MonoBehaviour
     void onWatchAds()
     {
         btWatchAds.DisableButton();
-        IronSourceAds.Instance.ShowRewardVideo(Define.AdsRewardType.COIN, "mission_completed", (result) =>
+        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.REWARDED,
+        () =>
         {
-            if (result == Define.AdsResult.Watched)
+            AddBonus(Define.Game.WATCH_ADS_BONUS, () =>
             {
-                AddBonus(Define.Game.WATCH_ADS_BONUS, () =>
-                {
-                    DG.Tweening.DOVirtual.DelayedCall(1, OnNext);
-                });
-            }
-        });
+                DG.Tweening.DOVirtual.DelayedCall(1, OnNext);
+            });
+        },
+        () =>
+        {
+            
+        }));
     }
 
     void AddBonus(int value, Action OnCompleted)
