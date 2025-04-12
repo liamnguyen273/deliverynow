@@ -36,7 +36,7 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         SetState(State.INIT);
-        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.BANNER));
+        //AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.BANNER));
     }
 
     // Update is called once per frame
@@ -267,6 +267,8 @@ public class GameManager : Singleton<GameManager>
         //SetState(State.SHOW_QUEST);
         StartPickUp();
         InGame.Instance.Reset();
+        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.INTERSTITIAL));
+
     }
     public void SetCharacter(Character character)
     {

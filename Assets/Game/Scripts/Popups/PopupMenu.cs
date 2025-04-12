@@ -10,6 +10,9 @@ public class PopupMenu: MonoBehaviour
     [SerializeField] Transform btnQuestPrefab;
     [SerializeField] Transform Container;
     [SerializeField] AudioClip audioClipNewOrder;
+    [SerializeField] Sprite _lock;
+    [SerializeField] Sprite _unlock;
+
     void Start()
     {
         Instance = this;
@@ -17,17 +20,20 @@ public class PopupMenu: MonoBehaviour
         int index = 0;
         foreach(var quest in QuestManager.Instance.quests)
         {
-            if(Profile.Instance.IsQuestUnlocked(index) || Profile.Instance.IsQuestComplete(index))
-            {
-                QuestItem item = Instantiate(quest.btPrefab, Container).GetComponent<QuestItem>();
-                //btn.Find("Title").GetComponent<Text>().text = quest.questTitle;
-                item.name = index.ToString();
-                item.SetInfo(Profile.Instance.GetQuestInfo(index));
-                item.GetComponent<UIButton>().OnClick.OnTrigger.Event.AddListener(()=>{
-                    OnQuestSelect(int.Parse(item.name));
-                });
-                item.NewTag(Profile.Instance.LastUnlockedIndex == index);
-            }
+            bool isUnLock = Profile.Instance.IsQuestUnlocked(index) || Profile.Instance.IsQuestComplete(index);
+            QuestItem item = Instantiate(quest.btPrefab, Container).GetComponent<QuestItem>();
+            //btn.Find("Title").GetComponent<Text>().text = quest.questTitle;
+            item.name = index.ToString();
+            item.SetInfo(Profile.Instance.GetQuestInfo(index));
+            item.GetComponent<UIButton>().OnClick.OnTrigger.Event.AddListener(() => {
+                OnQuestSelect(int.Parse(item.name));
+            });
+            item.NewTag(Profile.Instance.LastUnlockedIndex == index);
+
+            item.GetComponent<Image>().sprite = isUnLock ? _unlock : _lock;
+            item.GetComponent<Button>().interactable = isUnLock;
+
+
             index++;
         }
 

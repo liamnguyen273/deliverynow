@@ -44,8 +44,8 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 360
+  defaultScreenHeightWeb: 640
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
@@ -822,10 +822,10 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: APPLICATION:Minimal
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -838,7 +838,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: dUI_MANAGER;DREAMTECK_SPLINES;UNITY_POST_PROCESSING_STACK_V2;USE_CHEAT;gameanalytics_ironsource_enabled;gameanalytics_admob_enabled;LEVELPLAY_DEPENDENCIES_INSTALLED
+    Android: dUI_MANAGER;DREAMTECK_SPLINES;UNITY_POST_PROCESSING_STACK_V2;USE_CHEAT;LEVELPLAY_DEPENDENCIES_INSTALLED
     EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;dUI_MANAGER
     GameCoreScarlett: dUI_MANAGER
     GameCoreXboxOne: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
@@ -850,10 +850,10 @@ PlayerSettings:
     Stadia: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
     Standalone: DREAMTECK_SPLINES;dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
     VisionOS: UNITY_POST_PROCESSING_STACK_V2;dUI_MANAGER
-    WebGL: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2;DREAMTECK_SPLINES
     Windows Store Apps: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
     XboxOne: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
-    iPhone: dUI_MANAGER;gameanalytics_ironsource_enabled;gameanalytics_admob_enabled
+    iPhone: dUI_MANAGER
     tvOS: dUI_MANAGER;UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}

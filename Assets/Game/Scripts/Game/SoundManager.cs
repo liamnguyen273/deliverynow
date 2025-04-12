@@ -18,7 +18,7 @@ public class SoundManager : Singleton<SoundManager>
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void PlaySfx(AudioClip clip)
@@ -37,8 +37,9 @@ public class SoundManager : Singleton<SoundManager>
     public void StopMusic(AudioClip clip)
     {
         AudioSource audioSource = GetAudioSource(clip);
-        
-        audioSource.DOFade(0, 1).OnComplete(()=>{
+
+        audioSource.DOFade(0, 1).OnComplete(() =>
+        {
             saveTime[audioSource.name] = audioSource.time;
             audioSource.Stop();
         });
@@ -46,9 +47,9 @@ public class SoundManager : Singleton<SoundManager>
 
     AudioSource GetAudioSource(AudioClip clip)
     {
-        foreach(var ads in audioSourceMusics)
+        foreach (var ads in audioSourceMusics)
         {
-            if(ads.clip == clip)
+            if (ads.clip == clip)
             {
                 return ads;
             }
@@ -61,5 +62,23 @@ public class SoundManager : Singleton<SoundManager>
         audioSourceMusics.Add(audioSource);
         saveTime.Add(audioSource.name, 0);
         return audioSource;
+    }
+
+    public void Mute()
+    {
+        foreach (var audioSource in audioSourceMusics)
+        {
+            audioSource.mute = true;
+        }
+        audioSourceSfx.mute = true;
+    }
+
+    public void UnMute()
+    {
+        foreach (var audioSource in audioSourceMusics)
+        {
+            audioSource.mute = false;
+        }
+        audioSourceSfx.mute = false;
     }
 }

@@ -53,7 +53,7 @@ public class Car : MonoBehaviour
         switch (state)
         {
             case State.TUTORIAL:
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                 {
                     SetState(State.RUN);
                 }
@@ -63,23 +63,33 @@ public class Car : MonoBehaviour
 
                     Speed = Mathf.Lerp(Speed, MaxSpeed, Time.deltaTime * AccelerationSpeed);
 
-                    if (Input.GetMouseButtonDown(0))
+                    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                     {
                         IsTouchDown = true;
                         touchDownTime = 0;
 
                     }
-                    if (Input.GetMouseButtonUp(0))
+                    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                     {
                         IsTouchDown = false;
-                        if (subState == SubState.LEFT)
-                        {
-                            SetSubState(SubState.RIGHT);
-                        }
-                        else
+
+                        if (Input.GetKeyDown(KeyCode.A))
                         {
                             SetSubState(SubState.LEFT);
                         }
+                        else
+                        {
+                            SetSubState(SubState.RIGHT);
+                        }
+
+                        //if (subState == SubState.LEFT)
+                        //{
+                        //    SetSubState(SubState.RIGHT);
+                        //}
+                        //else
+                        //{
+                        //    SetSubState(SubState.LEFT);
+                        //}
                     }
                     if (IsTouchDown)
                     {
@@ -94,7 +104,7 @@ public class Car : MonoBehaviour
             case State.BREAK:
                 Speed -= Time.deltaTime * BreakSpeed;
                 Speed = Mathf.Max(Speed, 0);
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                 {
                     IsTouchDown = false;
                     SetState(State.RUN);

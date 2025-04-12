@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using GoogleMobileAds.Api;
 using UnityEngine;
 
 namespace ADS
@@ -24,58 +23,42 @@ namespace ADS
     public class AdsManager : Singleton<AdsManager>
     {
         public static bool isFreeAds;
-
-        private List<IServiceProvider> _serviceProviders;
-
         protected override void Init()
         {
             base.Init();
-            _serviceProviders = GetDependency();
+            GameMonetize.OnResumeGame += OnResumeGame;
+            GameMonetize.OnPauseGame += OnPauseGame;
         }
 
-        private void Start()
+        private void OnDisable()
         {
-            MobileAds.RaiseAdEventsOnUnityMainThread = true;
-            // Initialize the Google Mobile Ads SDK.
-            MobileAds.Initialize((InitializationStatus initStatus) =>
-            {
-                // This callback is called once the MobileAds SDK is initialized.
-                foreach (var serviceProvider in _serviceProviders)
-                {
-                    serviceProvider.ReloadADS();
-                }
-            });
-
-        }
-
-        private List<IServiceProvider> GetDependency()
-        {
-            List<IServiceProvider> service = new List<IServiceProvider>();
-            var banner = new BannerServices(AdmobHelper.AdConfig.Banner, AdmobHelper.BannerConfig.AdPosition);
-            var inter = new InterstitialServices(AdmobHelper.AdConfig.Intersitial);
-            var reward = new RewardServices(AdmobHelper.AdConfig.Reward);
-            Debug.Log("Init insterId: " + AdmobHelper.AdConfig.Intersitial);
-            Debug.Log("Init rewardId: " + AdmobHelper.AdConfig.Reward);
-            Debug.Log("Init bannerId: " + AdmobHelper.AdConfig.Banner);
-
-            service.Add(inter);
-            service.Add(reward);
-            service.Add(banner);
-            return service;
+            GameMonetize.OnResumeGame -= OnResumeGame;
+            GameMonetize.OnPauseGame -= OnPauseGame;
         }
 
         public void RequestAd(AdRequest adRequest)
         {
-            //Handler Free Ads
+            ShowAd();
+            adRequest.onSuccess?.Invoke();
+        }
 
-            IServiceProvider service = this._serviceProviders.Find(x => x.GetAdType() == adRequest.AdType);
-            if (service == null)
-            {
-                adRequest.onFailure?.Invoke();
-                return;
-            }
+        public void OnResumeGame()
+        {
+            Time.timeScale = 1;
+            SoundManager.Instance.UnMute();
 
-            service.ShowAds(adRequest.onSuccess, adRequest.onFailure);
+        }
+
+        public void OnPauseGame()
+        {
+            SoundManager.Instance.Mute();
+            Time.timeScale = 0;
+
+        }
+
+        public void ShowAd()
+        {
+            GameMonetize.Instance.ShowAd();
         }
     }
 }
