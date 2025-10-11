@@ -33,7 +33,7 @@ public class PopupMissionComplete : MonoBehaviour
             AddBonus(Define.Game.BONUS, QuestComplete);
         });
         InGame.Instance.PlayBackGroundMusic(true);
-        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.INTERSTITIAL));
+        AdsManager.Instance.AdEvents(AdType.GAME_LEVEL_FINISHED);
     }
 
     // Update is called once per frame
@@ -51,8 +51,7 @@ public class PopupMissionComplete : MonoBehaviour
     void onWatchAds()
     {
         btWatchAds.DisableButton();
-        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.REWARDED,
-        () =>
+        AdsManager.Instance.ShowRewardedAd(() =>
         {
             AddBonus(Define.Game.WATCH_ADS_BONUS, () =>
             {
@@ -61,8 +60,8 @@ public class PopupMissionComplete : MonoBehaviour
         },
         () =>
         {
-            
-        }));
+
+        });
     }
 
     void AddBonus(int value, Action OnCompleted)

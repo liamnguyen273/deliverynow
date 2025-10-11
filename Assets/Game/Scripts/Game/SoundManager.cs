@@ -57,6 +57,7 @@ public class SoundManager : Singleton<SoundManager>
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = clip;
         audioSource.loop = true;
+        audioSource.volume = 0.5f;
         audioSource.playOnAwake = false;
         audioSource.name = audioSourceMusics.Count.ToString();
         audioSourceMusics.Add(audioSource);

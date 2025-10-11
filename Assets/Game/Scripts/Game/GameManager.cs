@@ -35,6 +35,7 @@ public class GameManager : Singleton<GameManager>
   
     void Start()
     {
+        AdsManager.Instance.ShowAd();
         SetState(State.INIT);
         //AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.BANNER));
     }
@@ -267,7 +268,7 @@ public class GameManager : Singleton<GameManager>
         //SetState(State.SHOW_QUEST);
         StartPickUp();
         InGame.Instance.Reset();
-        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.INTERSTITIAL));
+        AdsManager.Instance.AdEvents(AdType.GAME_LEVEL_START);
 
     }
     public void SetCharacter(Character character)

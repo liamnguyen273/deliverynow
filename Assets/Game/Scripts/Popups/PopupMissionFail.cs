@@ -15,7 +15,7 @@ public class PopupMissionFail : MonoBehaviour
         InGame.Instance.PlayBackGroundMusic(true);
 
         FailCount++;
-        AdsManager.Instance.RequestAd(new AdRequest(ADTYPE.INTERSTITIAL));
+        AdsManager.Instance.AdEvents(AdType.GAME_LEVEL_FAILED);
     }
 
     // Update is called once per frame
